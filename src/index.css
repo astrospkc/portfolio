@@ -52,3 +52,9 @@
     color: gray;
   }
 }
+
+@layer utilities {
+  .clipped {
+    clip-path: polygon(0% 0%, 100% 0%, 60% 100%, 0% 100%);
+  }
+}

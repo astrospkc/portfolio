@@ -16,10 +16,10 @@ import Contacts from "./Contacts";
 const Home1 = () => {
   return (
     <>
-      <div className="flex flex-col md:flex-row h-screen">
+      <div className="flex flex-col lg:flex-row h-screen">
         {/* left section */}
         <div
-          className=" md:w-1/2 md:h-full md:rounded-br-full shadow-xl shadow-black "
+          className=" lg:w-1/2 lg:h-full lg:rounded-br-full shadow-xl shadow-black "
           style={{
             backgroundImage: `url(${sunset})`,
             backgroundSize: "cover",

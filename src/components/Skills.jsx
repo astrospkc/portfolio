@@ -24,51 +24,51 @@ const Skills = () => {
         {/* fonts - {css, html , js, reactjs, python, nodejs, expressjs , mongodb,} */}
         <div className="grid grid-cols-3 md:grid-cols-4 gap-2 my-5 ">
           <div>
-            <BsFiletypeHtml className="text-7xl bg-slate-300 p-2 rounded-lg text-red-900" />
+            <BsFiletypeHtml className="text-7xl bg-slate-300 p-2 rounded-lg text-red-900 shadow-sm shadow-black" />
             <h1 className="text-xl font-semibold">Html</h1>
           </div>
           <div>
-            <DiJavascript className="text-7xl bg-slate-300 p-2 rounded-lg text-yellow-500" />
+            <DiJavascript className="text-7xl bg-slate-300 p-2 rounded-lg text-yellow-500 shadow-sm shadow-black" />
             <h1 className="text-xl font-semibold">Javascript</h1>
           </div>
           <div>
-            <DiCss3 className="text-7xl bg-slate-300 p-2 rounded-lg text-blue-800" />
+            <DiCss3 className="text-7xl bg-slate-300 p-2 rounded-lg text-blue-800 shadow-sm shadow-black" />
             <h1 className="text-xl font-semibold">CSS</h1>
           </div>
 
           <div>
-            <DiMongodb className="text-7xl bg-slate-300 p-2 rounded-lg text-green-600" />
+            <DiMongodb className="text-7xl bg-slate-300 p-2 rounded-lg text-green-600 shadow-sm shadow-black" />
             <h1 className="text-xl font-semibold">Mongodb</h1>
           </div>
 
           <div>
-            <DiPython className="text-7xl bg-slate-300 p-2 rounded-lg  " />
+            <DiPython className="text-7xl bg-slate-300 p-2 rounded-lg  shadow-sm shadow-black " />
             <h1 className="text-xl font-semibold">Python</h1>
           </div>
 
           <div>
-            <DiNodejs className="text-7xl bg-slate-300 p-2 rounded-lg text-green-800" />
+            <DiNodejs className="text-7xl bg-slate-300 p-2 rounded-lg text-green-800 shadow-sm shadow-black" />
             <h1 className="text-xl font-semibold">Nodejs</h1>
           </div>
 
           <div>
-            <DiReact className="text-7xl bg-slate-300 p-2 rounded-lg text-cyan-600" />
+            <DiReact className="text-7xl bg-slate-300 p-2 rounded-lg text-cyan-600 shadow-sm shadow-black" />
             <h1 className="text-xl font-semibold">React</h1>
           </div>
 
           <div>
-            <DiMysql className="text-7xl bg-slate-300 p-2 rounded-lg " />
+            <DiMysql className="text-7xl bg-slate-300 p-2 rounded-lg shadow-sm shadow-black " />
             <h1 className="text-xl font-semibold">Mysql</h1>
           </div>
 
           <div>
-            <DiIllustrator className="text-7xl bg-slate-300 p-2 rounded-lg text-red-700" />
+            <DiIllustrator className="text-7xl bg-slate-300 p-2 rounded-lg text-red-700 shadow-sm shadow-black" />
             <h1 className="text-xl font-semibold">Illustrator</h1>
           </div>
         </div>
       </div>
 
-      <div className="flex flex-col items-center ">
+      {/* <div className="flex flex-col items-center ">
         <div style={{ margin: 10, height: 130, width: 130 }} className="">
           <Circle
             percent={20}
@@ -82,7 +82,7 @@ const Skills = () => {
         <div className="">
           <h1 className="">Html</h1>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

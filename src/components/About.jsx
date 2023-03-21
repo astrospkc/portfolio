@@ -5,7 +5,7 @@ const About = () => {
   return (
     <>
       <div className=" items-start md:text-left flex flex-col ml-3 ">
-        <div className=" ml-3">
+        <div className=" ml-3 ">
           <h2 className="text-3xl font-bold my-4 text-gray-800">About Me</h2>
           <hr className="" />
           <div className="text-2xl ml-1">
@@ -14,9 +14,7 @@ const About = () => {
             </h3>
             <p style={style} className="text-lg mr-3 text-black">
               2021 Bsc. Graduate in physics.I am a self-taught frontend
-              developer from Assam, India.I am passionate about learning new
-              things, so I am here as a programmer. I am consistent and hard
-              working person.
+              developer.I am passionate about learning new things.
             </p>
           </div>
 
@@ -40,10 +38,19 @@ const About = () => {
               My Service
             </h2>
             <hr />
-
-            <div className=" my-3">
-              <FaReact className="text-7xl text-cyan-500 text-center" />
-              <h1 className="text-2xl">Front-End </h1>
+            <div className="flex flex-row ">
+              <div className=" my-3  shadow-md shadow-black">
+                <FaReact className="text-7xl text-cyan-500 m-auto" />
+                <h1 className="text-2xl font-bold">Front-End </h1>
+              </div>
+              <div className="mx-11 my-3 shadow-md shadow-black">
+                <img
+                  src="/Images/lockup vertical 2.png"
+                  alt=""
+                  className="h-[90px] m-auto"
+                />
+                <h1 className="text-2xl font-bold">Logo Design</h1>
+              </div>
             </div>
           </div>
         </div>
