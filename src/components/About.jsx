@@ -1,6 +1,7 @@
 import React from "react";
 import style from "./style";
 import { FaReact } from "react-icons/fa";
+import movie from "./logo.png";
 const About = () => {
   return (
     <>
@@ -44,11 +45,7 @@ const About = () => {
                 <h1 className="text-2xl font-bold">Front-End </h1>
               </div>
               <div className="mx-11 my-3 shadow-md shadow-black">
-                <img
-                  src="/Images/lockup vertical 2.png"
-                  alt=""
-                  className="h-[90px] m-auto"
-                />
+                <img src={movie} alt="" className="h-[90px] m-auto" />
                 <h1 className="text-2xl font-bold">Logo Design</h1>
               </div>
             </div>

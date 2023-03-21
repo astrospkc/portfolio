@@ -12,6 +12,7 @@ import Skills from "./Skills";
 import Home from "./Home";
 import Works from "./Works";
 import Contacts from "./Contacts";
+import profileImage from "./punam.jpg";
 
 const Home1 = () => {
   return (
@@ -31,7 +32,7 @@ const Home1 = () => {
         >
           <div className="flex flex-col mx-40 my-20 justify-center items-center backdrop-blur-lg  shadow-lg shadow-black ">
             <img
-              src="/Images/punam.jpg"
+              src={profileImage}
               alt=""
               className="w-48 h-48 md:w-60 md:h-60 rounded-full m-auto my-3 border-4 border-red-100 shadow-lg shadow-black"
             />

@@ -1,6 +1,9 @@
 import React from "react";
 import style from "./style";
 import { Link } from "react-router-dom";
+import weather from "./weather.png";
+import web from "./web.jpg";
+import movieFrontImage from "./movieFrontImage.png";
 
 const Works = () => {
   return (
@@ -9,7 +12,7 @@ const Works = () => {
         <h1 className="text-4xl font-bold text-gray-700">Projects</h1>
         <hr />
         <div className="flex  flex-row m-4 border-2 border-black p-3 shadow-lg shadow-black">
-          <img src="/Images/movieFrontImage.png" alt="" className="w-1/2" />
+          <img src={movieFrontImage} alt="" className="w-1/2" />
           <div className="mx-4">
             <p className="">
               This is a movie app where I used external tmdb APi and used tools
@@ -23,7 +26,7 @@ const Works = () => {
           </div>
         </div>
         <div className="flex  flex-row-reverse m-4 border-2 border-black p-3 shadow-lg shadow-black">
-          <img src="/Images/weather.png" alt="" className="w-1/2" />
+          <img src={weather} alt="" className="w-1/2" />
           <div className="mx-4">
             <p className="">Tools used - Css , html and Javascript</p>
             <Link to="https://weather-info-eight.vercel.app/">
