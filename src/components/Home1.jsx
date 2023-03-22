@@ -30,19 +30,19 @@ const Home1 = () => {
             backdropFilter: blur(),
           }}
         >
-          <div className="flex flex-col mx-40 my-20 justify-center items-center backdrop-blur-lg  shadow-lg shadow-black ">
+          <div className="flex flex-col mx-10 md:mx-40 my-20 justify-center items-center backdrop-blur-lg rounded-lg  shadow-lg shadow-black ">
             <img
               src={profileImage}
               alt=""
-              className="w-48 h-48 md:w-60 md:h-60 rounded-full m-auto my-3 border-4 border-red-100 shadow-lg shadow-black"
+              className="w-2/3 h-2/3  rounded-full  my-3   border-4 border-red-100 shadow-lg shadow-black"
             />
             <h1
-              className=" text-xl md:text-2xl text-white bg-black w-fit px-2 my-2 m-auto"
+              className=" text-xs md:text-2xl text-white bg-black w-fit px-2 my-2 m-auto"
               style={style}
             >
               Hi, I'm Punam Kumari
             </h1>
-            <p className="mx-6 text-2xl text-center font-bold">
+            <p className="mx-6 text-sm md:text-2xl text-center font-bold">
               Frontend Developer
             </p>
             <ul></ul>
