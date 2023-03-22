@@ -57,4 +57,10 @@
   .clipped {
     clip-path: polygon(0% 0%, 100% 0%, 60% 100%, 0% 100%);
   }
+  .multiline {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+  }
 }
