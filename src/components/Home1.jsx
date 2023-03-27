@@ -47,7 +47,7 @@ const Home1 = () => {
             </p>
             <ul></ul>
           </div>
-          <p className="text-left text-slate-800 font-bold  sm:text-md  md:text-lg  ml-12 mr-12 md:mr-60 md:mt-20 backdrop-blur-md ">
+          <p className="text-left text-black font-bold  sm:text-md  md:text-lg  ml-12 mr-12 md:mr-60 md:mt-20 backdrop-blur-md ">
             “Every great developer you know got there by solving problems they
             were unqualified to solve until they actually did it.” – Patrick
             McKenzie

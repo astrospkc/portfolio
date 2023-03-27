@@ -17,7 +17,7 @@ const Skills = () => {
   return (
     <>
       <div className="m-7 ">
-        <h1 className="text-slate-800 text-3xl font-bold">
+        <h1 className="text-slate-800  text-md md:text-2xl font-bold">
           TOOLS FAMILIAR WITH
         </h1>
         <hr />

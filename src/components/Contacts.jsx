@@ -42,7 +42,7 @@ const Contacts = () => {
           </Link>
         </div>
         <div className=" flex flex-row mx-9 mb-9 ">
-          <h1 className="text-black mx-6 font-semibold hover:text-yellow-600">
+          <h1 className="text-black mx-6 font-semibold hover:text-yellow-600 overflow-hidden">
             Email me at - punamkumari399@gmail.com
           </h1>
         </div>
