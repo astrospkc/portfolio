@@ -32,7 +32,7 @@ const Home1 = () => {
         >
           <div className="flex flex-col mx-10 md:mx-40 my-20 justify-center items-center backdrop-blur-lg rounded-lg  shadow-lg shadow-black ">
             <img
-              src={profileImage}
+              // src={profileImage}
               alt=""
               className="w-2/3 h-2/3  rounded-full  my-3   border-4 border-red-100 shadow-lg shadow-black"
             />
