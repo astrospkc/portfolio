@@ -15,7 +15,7 @@ function App() {
   return (
     <>
       <Router>
-        <div className="flex  ">
+        <div className="flex  overflow-x-hidden ">
           <div className="fixed left-0 top-0 h-screen w-[10%]  ">
             <Navbar />
           </div>
