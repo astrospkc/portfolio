@@ -5,15 +5,7 @@ import Skills from "./Skills";
 import Works from "./Works";
 
 const Home = () => {
-  return (
-    <>
-      <About />
-      <Skills />
-
-      <Works />
-      <Contacts />
-    </>
-  );
+  return <></>;
 };
 
 export default Home;

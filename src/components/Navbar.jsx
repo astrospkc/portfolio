@@ -12,50 +12,53 @@ const Navbar = () => {
   }
   return (
     <>
-      <div className="m-3">
-        <div>
-          <ul
-            className={
-              toggleMenu
-                ? "absolute left hover:text-yellow-500  bottom-0 md:static md:flex md:flex-row   mx-3 px-2 "
-                : "hidden " +
-                  " right-0  bottom-0 md:static md:flex md:flex-row  md:items-center mx-3 px-2 "
-            }
-          >
-            <li className="mr-6 bg-gray-700 text-white px-3 rounded-lg shadow-md shadow-black hover:text-yellow-500">
-              <Link to="/">Home</Link>
-            </li>
+      <div className="md:hidden justify-self-start m-4" onClick={handleToggle}>
+        {!toggleMenu && (
+          <div className="md:hidden text-white ">
+            <BsList className="text-black text-4xl bg-yellow-500 rounded-full p-2" />
+          </div>
+        )}
 
-            <li className="mr-6 bg-gray-700 text-white px-3 rounded-lg shadow-md shadow-black hover:text-yellow-500">
-              <Link to="/about">About</Link>
-            </li>
-            <li className="mr-6 bg-gray-700 text-white px-3 rounded-lg shadow-md shadow-black hover:text-yellow-500">
-              <Link to="/resume">Resume</Link>
-            </li>
-            <li className="mr-6 bg-gray-700 text-white px-3 rounded-lg shadow-md shadow-black hover:text-yellow-500">
-              <Link to="/works">Works</Link>
-            </li>
-            <li className="mr-6 bg-gray-700 text-white px-3 rounded-lg shadow-md shadow-black hover:text-yellow-500">
-              <Link to="/skills">Skills</Link>
-            </li>
-            <li className="mr-6 bg-gray-700 text-white px-3 rounded-lg shadow-md shadow-black hover:text-yellow-500">
-              <Link to="/contacts">Contacts</Link>
-            </li>
-          </ul>
-        </div>
-        <div className="md:hidden justify-self-start" onClick={handleToggle}>
-          {!toggleMenu && (
-            <div className="md:hidden text-white ">
-              <BsList className="text-black text-4xl bg-yellow-500 rounded-full p-2" />
-            </div>
-          )}
+        {toggleMenu && (
+          <div className="md:hidden text-white ">
+            <BsXLg className="text-black text-4xl bg-yellow-500 rounded-full p-2" />
+          </div>
+        )}
+      </div>
+      <div
+        className={
+          toggleMenu
+            ? " md:min-h-screen md:border-r-2  text-white md:border-gray-600  md:flex justify-evenly items-center   "
+            : "hidden md:flex  md:min-h-screen md:border-r-2  text-white md:border-gray-600   justify-evenly items-center  "
+          // "w-2/3 md:min-h-screen md:border-r-2 p-3 text-white border-gray-600  md:flex justify-evenly items-center bg-red-300 "
+        }
+      >
+        <ul
+          className={
+            toggleMenu
+              ? " hover:text-yellow-500 flex flex-col  mr-3 px-3"
+              : "hidden " + "  md:flex flex-col mr-3  "
+          }
+          // className=" hover:text-yellow-500 flex flex-col m-3 "
+        >
+          <li className="md:m-6  text-white px-3 border-b-2 md:border-b-0 border-gray-800 hover:text-yellow-500">
+            <Link to="/">Home</Link>
+          </li>
 
-          {toggleMenu && (
-            <div className="md:hidden text-white">
-              <BsXLg className="text-black text-4xl bg-yellow-500 rounded-full p-2" />
-            </div>
-          )}
-        </div>
+          <li className="md:m-6  text-white px-3  border-b-2 md:border-b-0 border-gray-800 hover:text-yellow-500">
+            <Link to="/about">About</Link>
+          </li>
+
+          <li className="md:m-6  text-white px-3 border-b-2 md:border-b-0 border-gray-800 hover:text-yellow-500">
+            <Link to="/works">Works</Link>
+          </li>
+          <li className="md:m-6  text-white px-3 border-b-2 md:border-b-0 border-gray-800 hover:text-yellow-500">
+            <Link to="/skills">Skills</Link>
+          </li>
+          <li className="md:m-6  text-white px-3 border-b-2 md:border-b-0 border-gray-800 hover:text-yellow-500">
+            <Link to="/contacts">Contacts</Link>
+          </li>
+        </ul>
       </div>
     </>
   );

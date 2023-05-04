@@ -7,11 +7,12 @@
 @layer base {
   body {
     background: rgb(207, 241, 240);
-    background: radial-gradient(
+    /* background: radial-gradient(
       circle,
       rgba(207, 241, 240, 1) 0%,
       rgba(2, 16, 52, 0.8771498771498771) 100%
-    );
+    ); */
+    background-color: black;
   }
 
   .container {

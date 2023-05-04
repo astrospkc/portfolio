@@ -16,13 +16,13 @@ import { DiIllustrator } from "react-icons/di";
 const Skills = () => {
   return (
     <>
-      <div className="m-7 ">
+      <div className="m-7 h-screen flex flex-col justify-center items-center">
         <h1 className="text-slate-800  text-md md:text-2xl font-bold">
           TOOLS FAMILIAR WITH
         </h1>
-        <hr />
+
         {/* fonts - {css, html , js, reactjs, python, nodejs, expressjs , mongodb,} */}
-        <div className="grid grid-cols-3 md:grid-cols-4 gap-2 my-5 ">
+        <div className="grid grid-cols-3 md:grid-cols-6 gap-4 my-5 ">
           <div>
             <BsFiletypeHtml className="text-7xl bg-slate-300 p-2 rounded-lg text-red-900 shadow-sm shadow-black" />
             <h1 className="text-xl font-semibold">Html</h1>
