@@ -7,12 +7,12 @@ const About = () => {
     <>
       <div className="  flex flex-col h-screen justify-center items-center ">
         <div className=" text-center">
-          <h2 className="text-3xl font-bold my-4 text-gray-800 text-center">
+          <h2 className=" text-3xl md:text-5xl font-bold my-4 text-gray-500 text-center">
             About Me
           </h2>
 
           <div className="text-2xl ml-1 flex flex-col justify-center items-center ">
-            <h3 className="text-3xl font-semibold my-4 text-yellow-500 ">
+            <h3 className=" text-xl md:text-3xl font-semibold my-4 text-yellow-500 ">
               Hello, I'm Punam Kumari
             </h3>
             <h3 className="text-yellow-600 ">Frontend Developer</h3>
@@ -27,23 +27,9 @@ const About = () => {
             </p>
           </div>
 
-          <div flex flex-col justify-center items-center>
-            <ul className="mt-4 mb-2 ml-1 flex flex-col lg:flex-row text-slate-700 text-lg md:text-xl justify-center items-center ">
-              <li className=" font-semibold " style={style}>
-                Age....23
-              </li>
-              <li className="lg:ml-9 font-semibold " style={style}>
-                Residence .... India
-              </li>
-              <li className="lg:mx-9 font-semibold " style={style}>
-                Address .... Assam, India
-              </li>
-            </ul>
-          </div>
-
           {/* my service */}
           <div className="mt-20 flex flex-col justify-center items-center ">
-            <h2 className="text-3xl font-bold my-4 text-gray-800">
+            <h2 className="text-3xl font-bold my-4 text-gray-500">
               My Service
             </h2>
 

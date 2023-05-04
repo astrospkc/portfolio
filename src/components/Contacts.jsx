@@ -8,11 +8,11 @@ const Contacts = () => {
   return (
     <>
       <div className="h-screen flex flex-col justify-center items-center">
-        <h1 className="text-center font-bold text-4xl text-white mt-8 ">
+        <h1 className="text-center font-bold text-4xl text-gray-500 mt-8 ">
           CONTACT
         </h1>
         <div
-          className="mx-9 border-2 border-white text-white "
+          className="mx-9 border-r-2 border-l-2 border-gray-600 rounded-lg text-white "
           style={
             {
               // backgroundColor: "#1b263b",

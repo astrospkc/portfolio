@@ -17,53 +17,53 @@ const Skills = () => {
   return (
     <>
       <div className="m-7 h-screen flex flex-col justify-center items-center">
-        <h1 className="text-slate-800  text-md md:text-2xl font-bold">
+        <h1 className="text-slate-500  text-md md:text-2xl font-bold">
           TOOLS FAMILIAR WITH
         </h1>
 
         {/* fonts - {css, html , js, reactjs, python, nodejs, expressjs , mongodb,} */}
         <div className="grid grid-cols-3 md:grid-cols-6 gap-4 my-5 ">
-          <div>
+          <div className="tooltip">
             <BsFiletypeHtml className="text-7xl bg-slate-300 p-2 rounded-lg text-red-900 shadow-sm shadow-black" />
-            <h1 className="text-xl font-semibold">Html</h1>
+            <span className="tooltiptext">Html</span>
           </div>
-          <div>
+          <div className="tooltip">
             <DiJavascript className="text-7xl bg-slate-300 p-2 rounded-lg text-yellow-500 shadow-sm shadow-black" />
-            <h1 className="text-xl font-semibold">Javascript</h1>
+            <span className="tooltiptext">CSS</span>
           </div>
-          <div>
+          <div className="tooltip">
             <DiCss3 className="text-7xl bg-slate-300 p-2 rounded-lg text-blue-800 shadow-sm shadow-black" />
-            <h1 className="text-xl font-semibold">CSS</h1>
+            <span className="tooltiptext">Javascript</span>
           </div>
 
-          <div>
+          <div className="tooltip">
             <DiMongodb className="text-7xl bg-slate-300 p-2 rounded-lg text-green-600 shadow-sm shadow-black" />
-            <h1 className="text-xl font-semibold">Mongodb</h1>
+            <span className="tooltiptext">Monogodb</span>
           </div>
 
-          <div>
+          <div className="tooltip">
             <DiPython className="text-7xl bg-slate-300 p-2 rounded-lg  shadow-sm shadow-black " />
-            <h1 className="text-xl font-semibold">Python</h1>
+            <span className="tooltiptext">Python</span>
           </div>
 
-          <div>
+          <div className="tooltip">
             <DiNodejs className="text-7xl bg-slate-300 p-2 rounded-lg text-green-800 shadow-sm shadow-black" />
-            <h1 className="text-xl font-semibold">Nodejs</h1>
+            <span className="tooltiptext">Nodejs</span>
           </div>
 
-          <div>
+          <div className="tooltip">
             <DiReact className="text-7xl bg-slate-300 p-2 rounded-lg text-cyan-600 shadow-sm shadow-black" />
-            <h1 className="text-xl font-semibold">React</h1>
+            <span className="tooltiptext">Reactjs</span>
           </div>
 
-          <div>
+          <div className="tooltip">
             <DiMysql className="text-7xl bg-slate-300 p-2 rounded-lg shadow-sm shadow-black " />
-            <h1 className="text-xl font-semibold">Mysql</h1>
+            <span className="tooltiptext">MySQL</span>
           </div>
 
-          <div>
+          <div className="tooltip">
             <DiIllustrator className="text-7xl bg-slate-300 p-2 rounded-lg text-red-700 shadow-sm shadow-black" />
-            <h1 className="text-xl font-semibold">Illustrator</h1>
+            <span className="tooltiptext">Illustrator</span>
           </div>
         </div>
       </div>

@@ -2,9 +2,9 @@ import { Routes } from "react-router-dom";
 import "./App.css";
 import Home1 from "./components/Home1";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import Home from "./components/Home";
+
 import About from "./components/About";
-import Experience from "./components/Experience";
+
 import Works from "./components/Works";
 
 import Skills from "./components/Skills";
@@ -15,16 +15,16 @@ function App() {
   return (
     <>
       <Router>
-        <div className="flex  ">
-          <div className="md:fixed md:left-0 md:top-0 md:h-screen md:w-[10%]  ">
+        <div className="flex flex-col overflow-x-hidden ">
+          <div className="fixed md:left-0 md:top-0 h-fit md:h-screen w-fit md:w-[10%] md:bg-black  ">
             <Navbar />
           </div>
-          <div className="md:flex justify-center items-center md:w-[90%] md:ml-auto ">
+          <div className="flex justify-center items-center w-full md:w-[90%] md:ml-auto  ">
             <Routes>
               <Route path="/" element={<Home1 />} />
 
               <Route path="/about" element={<About />} />
-              <Route path="/experience" element={<Experience />} />
+
               <Route path="/works" element={<Works />} />
 
               <Route path="/skills" element={<Skills />} />
