@@ -15,11 +15,11 @@ function App() {
   return (
     <>
       <Router>
-        <div className="flex  overflow-x-hidden ">
-          <div className="fixed left-0 top-0 h-screen w-[10%]  ">
+        <div className="flex  ">
+          <div className="md:fixed md:left-0 md:top-0 md:h-screen md:w-[10%]  ">
             <Navbar />
           </div>
-          <div className="flex justify-center items-center w-[90%] ml-auto ">
+          <div className="md:flex justify-center items-center md:w-[90%] md:ml-auto ">
             <Routes>
               <Route path="/" element={<Home1 />} />
 
