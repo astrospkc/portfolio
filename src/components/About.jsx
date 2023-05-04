@@ -12,7 +12,7 @@ const About = () => {
           </h2>
 
           <div className="text-2xl ml-1 flex flex-col justify-center items-center ">
-            <h3 className="text-3xl font-semibold my-4 text-yellow-500">
+            <h3 className="text-3xl font-semibold my-4 text-yellow-500 ">
               Hello, I'm Punam Kumari
             </h3>
             <h3 className="text-yellow-600 ">Frontend Developer</h3>
