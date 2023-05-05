@@ -66,7 +66,7 @@
     overflow: hidden;
   }
   .tooltip {
-    position: relative;
+    /* position: relative; */
     display: inline-block;
   }
 
@@ -78,11 +78,11 @@
     text-align: center;
     padding: 5px 0;
     border-radius: 6px;
-    position: absolute;
-    z-index: 1;
-    bottom: 125%;
-    left: 50%;
-    margin-left: -60px;
+    position: static;
+    /* z-index: 1; */
+    /* bottom: 100%; */
+    /* left: 50%; */
+    /* margin-left: -60px; */
 
     opacity: 0;
     transition: opacity 0.3s;
@@ -90,10 +90,10 @@
 
   .tooltip .tooltiptext::after {
     content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-left: -5px;
+    /* position: absolute; */
+    /* top: 100%; */
+    /* left: 50%; */
+    /* margin-left: -5px; */
     border-width: 5px;
     border-style: solid;
     border-color: #555 transparent transparent transparent;
@@ -102,5 +102,17 @@
   .tooltip:hover .tooltiptext {
     visibility: visible;
     opacity: 1;
+  }
+  .skillsanimate {
+    position: relative;
+    animation: skills 1s ease-in 0.2s 1 normal;
+  }
+  @keyframes skills {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 100%;
+    }
   }
 }

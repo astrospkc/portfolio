@@ -9,12 +9,12 @@ import image from "./blogshot.png";
 const Works = () => {
   return (
     <>
-      <div className="m-7 ">
-        <h1 className="text-4xl text-center font-bold text-gray-500">
+      <div className="m-7 skillsanimate  ">
+        <h1 className="text-3xl md:text-5xl text-center font-bold text-gray-500">
           Projects
         </h1>
 
-        <div className="flex  flex-col justify-center items-center m-4   p-3 shadow-lg shadow-black">
+        <div className="flex  flex-col justify-center items-center m-4   p-3 shadow-lg shadow-black ">
           <img src={movieFrontImage} alt="" className="w-1/2 rounded-xl " />
           <div className="mx-4 flex flex-col justify-center items-center">
             <p className="multiline text-white">

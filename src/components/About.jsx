@@ -5,17 +5,19 @@ import movie from "./logo.png";
 const About = () => {
   return (
     <>
-      <div className="  flex flex-col h-screen justify-center items-center ">
-        <div className=" text-center">
-          <h2 className=" text-3xl md:text-5xl font-bold my-4 text-gray-500 text-center">
+      <div className="  flex flex-col h-screen justify-center items-center  ">
+        <div className=" text-center ">
+          <h2 className=" text-3xl md:text-5xl font-bold my-4 text-gray-500 text-center ">
             About Me
           </h2>
+          <h3 className=" text-xl md:text-3xl font-semibold my-4 text-yellow-500 ">
+            Hello, I'm Punam Kumari
+          </h3>
+          <h3 className="text-yellow-600 text-2xl skillsanimate ">
+            Frontend Developer
+          </h3>
 
           <div className="text-2xl ml-1 flex flex-col justify-center items-center ">
-            <h3 className=" text-xl md:text-3xl font-semibold my-4 text-yellow-500 ">
-              Hello, I'm Punam Kumari
-            </h3>
-            <h3 className="text-yellow-600 ">Frontend Developer</h3>
             <p
               style={style}
               className="text-lg mr-3 text-white w-1/2 text-center"
@@ -33,7 +35,7 @@ const About = () => {
               My Service
             </h2>
 
-            <div className="flex flex-row ">
+            <div className="grid grid-cols-2 ">
               <div className=" my-3  ">
                 <FaReact className="text-7xl text-cyan-500 m-auto h-[90px] " />
                 <h1 className="text-2xl font-bold text-white">Front-End </h1>

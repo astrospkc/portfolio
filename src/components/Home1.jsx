@@ -8,10 +8,10 @@ import { BsAwardFill } from "react-icons/bs";
 const Home1 = () => {
   return (
     <>
-      <div className="flex flex-col justify-center items-center ">
+      <div className="flex flex-col justify-center items-center skillsanimate">
         <div className="flex flex-col justify-center items-center h-screen p-5">
           {/* left section */}
-          <div className="flex flex-col  md:backdrop-blur-lg rounded-lg  shadow-lg shadow-black ">
+          <div className="flex flex-col  md:backdrop-blur-lg rounded-lg  shadow-lg shadow-black border-t-2 border-yellow-600 ">
             <h1 className=" text-xs md:text-2xl text-white  w-fit px-2 my-2 m-auto">
               Hi, I'm Punam Kumari
             </h1>

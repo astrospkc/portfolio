@@ -16,54 +16,56 @@ import { DiIllustrator } from "react-icons/di";
 const Skills = () => {
   return (
     <>
-      <div className="m-7 h-screen flex flex-col justify-center items-center">
-        <h1 className="text-slate-500  text-md md:text-2xl font-bold">
-          TOOLS FAMILIAR WITH
-        </h1>
+      <div className=" flex">
+        <div className="m-7 h-screen flex flex-col justify-center items-center">
+          <h1 className="text-slate-500  text-3xl md:text-5xl font-bold">
+            TOOLS FAMILIAR WITH
+          </h1>
 
-        {/* fonts - {css, html , js, reactjs, python, nodejs, expressjs , mongodb,} */}
-        <div className="grid grid-cols-3 md:grid-cols-6 gap-4 my-5 ">
-          <div className="tooltip">
-            <BsFiletypeHtml className="text-7xl bg-slate-300 p-2 rounded-lg text-red-900 shadow-sm shadow-black" />
-            <span className="tooltiptext">Html</span>
-          </div>
-          <div className="tooltip">
-            <DiJavascript className="text-7xl bg-slate-300 p-2 rounded-lg text-yellow-500 shadow-sm shadow-black" />
-            <span className="tooltiptext">CSS</span>
-          </div>
-          <div className="tooltip">
-            <DiCss3 className="text-7xl bg-slate-300 p-2 rounded-lg text-blue-800 shadow-sm shadow-black" />
-            <span className="tooltiptext">Javascript</span>
-          </div>
+          {/* fonts - {css, html , js, reactjs, python, nodejs, expressjs , mongodb,} */}
+          <div className="grid grid-cols-3 md:grid-cols-6 gap-4 my-5 skillsanimate ">
+            <div className="tooltip">
+              <BsFiletypeHtml className="text-7xl bg-slate-300 p-2 rounded-lg text-red-900 shadow-sm shadow-black" />
+              <span className="tooltiptext">Html</span>
+            </div>
+            <div className="tooltip">
+              <DiJavascript className="text-7xl bg-slate-300 p-2 rounded-lg text-yellow-500 shadow-sm shadow-black" />
+              <span className="tooltiptext">CSS</span>
+            </div>
+            <div className="tooltip">
+              <DiCss3 className="text-7xl bg-slate-300 p-2 rounded-lg text-blue-800 shadow-sm shadow-black" />
+              <span className="tooltiptext">Javascript</span>
+            </div>
 
-          <div className="tooltip">
-            <DiMongodb className="text-7xl bg-slate-300 p-2 rounded-lg text-green-600 shadow-sm shadow-black" />
-            <span className="tooltiptext">Monogodb</span>
-          </div>
+            <div className="tooltip">
+              <DiMongodb className="text-7xl bg-slate-300 p-2 rounded-lg text-green-600 shadow-sm shadow-black" />
+              <span className="tooltiptext">Monogodb</span>
+            </div>
 
-          <div className="tooltip">
-            <DiPython className="text-7xl bg-slate-300 p-2 rounded-lg  shadow-sm shadow-black " />
-            <span className="tooltiptext">Python</span>
-          </div>
+            <div className="tooltip">
+              <DiPython className="text-7xl bg-slate-300 p-2 rounded-lg  shadow-sm shadow-black " />
+              <span className="tooltiptext">Python</span>
+            </div>
 
-          <div className="tooltip">
-            <DiNodejs className="text-7xl bg-slate-300 p-2 rounded-lg text-green-800 shadow-sm shadow-black" />
-            <span className="tooltiptext">Nodejs</span>
-          </div>
+            <div className="tooltip">
+              <DiNodejs className="text-7xl bg-slate-300 p-2 rounded-lg text-green-800 shadow-sm shadow-black" />
+              <span className="tooltiptext">Nodejs</span>
+            </div>
 
-          <div className="tooltip">
-            <DiReact className="text-7xl bg-slate-300 p-2 rounded-lg text-cyan-600 shadow-sm shadow-black" />
-            <span className="tooltiptext">Reactjs</span>
-          </div>
+            <div className="tooltip">
+              <DiReact className="text-7xl bg-slate-300 p-2 rounded-lg text-cyan-600 shadow-sm shadow-black" />
+              <span className="tooltiptext">Reactjs</span>
+            </div>
 
-          <div className="tooltip">
-            <DiMysql className="text-7xl bg-slate-300 p-2 rounded-lg shadow-sm shadow-black " />
-            <span className="tooltiptext">MySQL</span>
-          </div>
+            <div className="tooltip">
+              <DiMysql className="text-7xl bg-slate-300 p-2 rounded-lg shadow-sm shadow-black " />
+              <span className="tooltiptext">MySQL</span>
+            </div>
 
-          <div className="tooltip">
-            <DiIllustrator className="text-7xl bg-slate-300 p-2 rounded-lg text-red-700 shadow-sm shadow-black" />
-            <span className="tooltiptext">Illustrator</span>
+            <div className="tooltip">
+              <DiIllustrator className="text-7xl bg-slate-300 p-2 rounded-lg text-red-700 shadow-sm shadow-black" />
+              <span className="tooltiptext">Illustrator</span>
+            </div>
           </div>
         </div>
       </div>
