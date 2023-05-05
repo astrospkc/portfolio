@@ -19,7 +19,9 @@ function App() {
           <div className=" fixed md:left-0 md:top-0 h-fit md:h-screen w-fit md:w-[10%] md:bg-black  ">
             <Navbar />
           </div>
+
           <div className="flex justify-center items-center w-full md:w-[90%] md:ml-auto  ">
+            <hr className="lineanimate top-[50%]" />
             <Routes>
               <Route path="/" element={<Home1 />} />
 

@@ -1,6 +1,8 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import style from "./style";
 import { FaReact } from "react-icons/fa";
+import { BsHandIndexFill } from "react-icons/bs";
 import movie from "./logo.png";
 const About = () => {
   return (
@@ -10,6 +12,13 @@ const About = () => {
           <h2 className=" text-3xl md:text-5xl font-bold my-4 text-gray-500 text-center ">
             About Me
           </h2>
+          <span className="flex justify-center items-center m-auto text-yellow-600 hover:cursor-pointer tooltip ">
+            <BsHandIndexFill />
+            <a href="../images/resume.pdf" download className="tooltiptext">
+              Download resume
+            </a>
+          </span>
+
           <h3 className=" text-xl md:text-3xl font-semibold my-4 text-yellow-500 ">
             Hello, I'm Punam Kumari
           </h3>
