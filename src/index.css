@@ -104,7 +104,7 @@
     opacity: 1;
   }
   .skillsanimate {
-    position: relative;
+    /* position: relative; */
     animation: skills 1s ease-in 0.2s 1 normal;
   }
   @keyframes skills {

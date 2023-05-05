@@ -15,8 +15,8 @@ function App() {
   return (
     <>
       <Router>
-        <div className="flex flex-col overflow-x-hidden relative ">
-          <div className="fixed md:left-0 md:top-0 h-fit md:h-screen w-fit md:w-[10%] md:bg-black  ">
+        <div className="flex flex-col overflow-x-hidden ">
+          <div className=" fixed md:left-0 md:top-0 h-fit md:h-screen w-fit md:w-[10%] md:bg-black  ">
             <Navbar />
           </div>
           <div className="flex justify-center items-center w-full md:w-[90%] md:ml-auto  ">
