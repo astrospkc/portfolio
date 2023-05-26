@@ -21,7 +21,6 @@ function App() {
           </div>
 
           <div className="flex justify-center items-center w-full md:w-[90%] md:ml-auto  ">
-            <hr className="lineanimate top-[50%]" />
             <Routes>
               <Route path="/" element={<Home1 />} />
 
