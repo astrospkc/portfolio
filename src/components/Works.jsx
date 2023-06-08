@@ -44,7 +44,7 @@ const Works = () => {
           </div>
         </div>
         <div className="flex  flex-col justify-center items-center m-4   p-3 shadow-lg shadow-black">
-          <img src={foodPage} alt="" className="w-1/2 rounded-xl" />
+          <img src={image} alt="" className="w-1/2 rounded-xl" />
           <div className="mx-4 flex flex-col justify-center items-center">
             <p className="multiline text-white">
               Simple blogging website where we can write up our blog and post
@@ -80,7 +80,7 @@ const Works = () => {
 
         {/* chefkart */}
         <div className="flex  flex-col justify-center items-center m-4   p-3 shadow-lg shadow-black">
-          <img src={image} alt="" className="w-1/2 rounded-xl" />
+          <img src={foodPage} alt="" className="w-1/2 rounded-xl" />
           <div className="mx-4 flex flex-col justify-center items-center">
             <p className="multiline text-white">
               A simple 2 page food recipe website which let users know all the
