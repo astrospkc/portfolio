@@ -6,6 +6,7 @@ import web from "./web.jpg";
 import movieFrontImage from "./movie.png";
 import image from "./blogshot.png";
 import youtubeClone from "../Images/youtubeClone.png";
+import foodPage from "../Images/1.png";
 
 const Works = () => {
   return (
@@ -43,7 +44,7 @@ const Works = () => {
           </div>
         </div>
         <div className="flex  flex-col justify-center items-center m-4   p-3 shadow-lg shadow-black">
-          <img src={image} alt="" className="w-1/2 rounded-xl" />
+          <img src={foodPage} alt="" className="w-1/2 rounded-xl" />
           <div className="mx-4 flex flex-col justify-center items-center">
             <p className="multiline text-white">
               Simple blogging website where we can write up our blog and post
@@ -70,6 +71,23 @@ const Works = () => {
             </p>
 
             <Link to="https://grocare-youtube-clone.vercel.app/">
+              <button className=" px-2 border-r-2 border-l-2 rounded-lg mt-4 text-yellow-600 ">
+                click here
+              </button>
+            </Link>
+          </div>
+        </div>
+
+        {/* chefkart */}
+        <div className="flex  flex-col justify-center items-center m-4   p-3 shadow-lg shadow-black">
+          <img src={image} alt="" className="w-1/2 rounded-xl" />
+          <div className="mx-4 flex flex-col justify-center items-center">
+            <p className="multiline text-white">
+              A simple 2 page food recipe website which let users know all the
+              ingredients that were added in making respective food item.
+              <div className=""></div>
+            </p>
+            <Link to="https://chefkart-tau.vercel.app/">
               <button className=" px-2 border-r-2 border-l-2 rounded-lg mt-4 text-yellow-600 ">
                 click here
               </button>
