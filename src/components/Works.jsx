@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import weather from "./weather.png";
 import web from "./web.jpg";
 import movieFrontImage from "./movie.png";
-import image from "./blogshot.png";
+import image from "./blog.png";
 import youtubeClone from "../Images/youtubeClone.png";
 import foodPage from "../Images/1.png";
 
