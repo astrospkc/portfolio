@@ -11,21 +11,37 @@ import foodPage from "../Images/1.png";
 const Works = () => {
   return (
     <>
-      <div className=" m-7  flex flex-col justify-center items-center  ">
+      <div className=" md:m-7  flex flex-col justify-center items-center  ">
         <div>
-          <h1 className="text-3xl md:text-5xl text-center font-bold text-gray-500 bg-yellow-600 rounded-lg p-3">
+          <h1 className="text-3xl md:text-5xl text-center font-bold text-gray-500  p-3">
             Projects
           </h1>
         </div>
 
-        <div className="grid grid-cols-2 gap-1 my-5 skillsanimate justify-center items-center ">
-          <div className="flex  flex-col justify-center items-center m-4  p-3 shadow-lg shadow-black w-1/2 rounded-xl">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-1 my-5 skillsanimate   ">
+          <div className="flex  flex-col justify-center items-center m-4  p-3 shadow-lg shadow-black w-fit rounded-xl ">
             <img
               src={movieFrontImage}
               alt=""
               className="w-full rounded-xl mb-4"
             />
             <div className="mx-4 flex flex-col justify-center items-center">
+              <div className="my-2">
+                <ul className="flex flex-row">
+                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 rounded-xl text-sm">
+                    Reactjs
+                  </li>
+                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 rounded-xl text-sm">
+                    HTML
+                  </li>
+                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 rounded-xl text-sm">
+                    TailwindCSS
+                  </li>
+                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 rounded-xl text-sm ">
+                    Javascript
+                  </li>
+                </ul>
+              </div>
               <p className="multiline text-white text-sm md:text-md w-fit ">
                 This is a movie app where I used external tmdb APi and used
                 tools such as reactjs , html and tailwind css.
@@ -44,9 +60,25 @@ const Works = () => {
               </div>
             </div>
           </div>
-          <div className="flex  flex-col justify-center items-center m-4   p-3 shadow-lg shadow-black w-1/2 rounded-xl">
+          <div className="flex  flex-col justify-center items-center m-4   p-3 shadow-lg shadow-black w-fit rounded-xl">
             <img src={weather} alt="" className="w-full rounded-xl" />
             <div className="mx-4 flex flex-col justify-center items-center">
+              <div className="my-2">
+                <ul className="flex flex-row">
+                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 rounded-xl text-sm">
+                    Reactjs
+                  </li>
+                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 rounded-xl text-sm">
+                    HTML
+                  </li>
+                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 rounded-xl text-sm">
+                    TailwindCSS
+                  </li>
+                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 rounded-xl text-sm ">
+                    Javascript
+                  </li>
+                </ul>
+              </div>
               <p className="multiline text-white">
                 Tools used - Css , html and Javascript
               </p>
@@ -64,9 +96,34 @@ const Works = () => {
               </div>
             </div>
           </div>
-          <div className="flex  flex-col justify-center items-center m-4   p-3 shadow-lg shadow-black w-1/2 rounded-xl">
+          <div className="flex  flex-col justify-center items-center m-4   p-3 shadow-lg shadow-black w-fit  rounded-xl">
             <img src={image} alt="" className="w-full rounded-xl" />
             <div className="mx-4 flex flex-col justify-center items-center">
+              <div className="my-2">
+                <ul className="grid grid-cols-4 gap-1">
+                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 rounded-xl text-xs md:text-sm">
+                    Reactjs
+                  </li>
+                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 rounded-xl text-sm">
+                    HTML
+                  </li>
+                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 rounded-xl text-sm">
+                    Tailwind
+                  </li>
+                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 rounded-xl text-sm ">
+                    Javascript
+                  </li>
+                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 rounded-xl text-sm ">
+                    Mongodb
+                  </li>
+                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 rounded-xl text-sm ">
+                    Nodejs
+                  </li>
+                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 rounded-xl text-sm ">
+                    Expressjs
+                  </li>
+                </ul>
+              </div>
               <p className="multiline text-white">
                 Simple blogging website where we can write up our blog and post
                 it. Features added - delete , add, edit <div className=""></div>
@@ -86,9 +143,25 @@ const Works = () => {
             </div>
           </div>
 
-          <div className="flex  flex-col justify-center items-center m-4   p-3 shadow-lg shadow-black w-1/2 rounded-xl">
+          <div className="flex  flex-col justify-center items-center m-4   p-3 shadow-lg shadow-black w-fit  rounded-xl">
             <img src={youtubeClone} alt="" className="w-full rounded-xl" />
             <div className="mx-4 flex flex-col justify-center items-center">
+              <div className="my-2">
+                <ul className="flex flex-row">
+                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 rounded-xl text-sm">
+                    Reactjs
+                  </li>
+                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 rounded-xl text-sm">
+                    HTML
+                  </li>
+                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 rounded-xl text-sm">
+                    TailwindCSS
+                  </li>
+                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 rounded-xl text-sm ">
+                    Javascript
+                  </li>
+                </ul>
+              </div>
               <p className="multiline text-white min-w-fit">
                 A simple youtube where I used external Api given to me for a
                 project. I build this clone using Reactjs, TailwindCSS
@@ -113,9 +186,25 @@ const Works = () => {
           </div>
 
           {/* chefkart */}
-          <div className="flex  flex-col justify-center items-center m-4   p-3 shadow-lg shadow-black w-1/2 rounded-xl">
+          <div className="flex  flex-col justify-center items-center m-4   p-3 shadow-lg shadow-black w-fit  rounded-xl">
             <img src={foodPage} alt="" className="w-fullrounded-xl" />
             <div className="mx-4 flex flex-col justify-center items-center">
+              <div className="my-2">
+                <ul className="flex flex-row">
+                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 rounded-xl text-sm">
+                    Reactjs
+                  </li>
+                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 rounded-xl text-sm">
+                    HTML
+                  </li>
+                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 rounded-xl text-sm">
+                    TailwindCSS
+                  </li>
+                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 rounded-xl text-sm ">
+                    Javascript
+                  </li>
+                </ul>
+              </div>
               <p className="multiline text-white">
                 A simple 2 page food recipe website which let users know all the
                 ingredients that were added in making respective food item.
