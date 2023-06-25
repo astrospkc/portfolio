@@ -28,11 +28,11 @@ const Home1 = () => {
           </div>
         </div>
         <About />
-        <hr className="w-1/2 mx-auto bg-gray-700" />
+        {/* <hr className="w-1/2 mx-auto bg-gray-700" /> */}
         <Works />
-        <hr className="w-1/2 mx-auto" />
+        {/* <hr className="w-1/2 mx-auto" /> */}
         <Skills />
-        <hr className="w-1/2 mx-auto" />
+        {/* <hr className="w-1/2 mx-auto" /> */}
         <Contacts />
       </div>
     </>

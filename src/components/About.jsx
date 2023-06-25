@@ -49,7 +49,7 @@ const About = () => {
                 <FaReact className="text-7xl text-cyan-500 m-auto h-[90px] " />
                 <h1 className="text-2xl font-bold text-white">Front-End </h1>
               </div>
-              <div className="mx-11 my-3 shadow-md shadow-black">
+              <div className="mx-11 my-3 ">
                 <img src={movie} alt="" className="h-[90px] m-auto" />
                 <h1 className="text-2xl font-bold text-white">Logo Design</h1>
               </div>

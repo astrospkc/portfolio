@@ -18,7 +18,7 @@ const Skills = () => {
     <>
       <div className=" flex">
         <div className="m-7 h-screen flex flex-col justify-center items-center">
-          <h1 className="text-slate-500  text-3xl md:text-5xl font-bold">
+          <h1 className="text-slate-500  text-xl md:text-4xl font-bold">
             TOOLS FAMILIAR WITH
           </h1>
 
