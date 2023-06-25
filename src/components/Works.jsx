@@ -18,26 +18,26 @@ const Works = () => {
           </h1>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-1 my-5 skillsanimate   ">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-1 my-5 skillsanimate justify-center items-center  ">
           <div className="flex  flex-col justify-center items-center m-4  p-3 shadow-lg shadow-black w-fit rounded-xl ">
             <img
               src={movieFrontImage}
               alt=""
               className="w-full rounded-xl mb-4"
             />
-            <div className="mx-4 flex flex-col justify-center items-center">
+            <div className="mx-4 flex flex-col justify-center items-center w-fit">
               <div className="my-2">
-                <ul className="flex flex-row">
-                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 rounded-xl text-sm">
+                <ul className="grid grid-cols-3 md:grid-cols-4 ">
+                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 mb-2 w-full rounded-xl text-xs md:text-sm">
                     Reactjs
                   </li>
-                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 rounded-xl text-sm">
+                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 mb-2 w-full  rounded-xl text-xs md:text-sm">
                     HTML
                   </li>
-                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 rounded-xl text-sm">
-                    TailwindCSS
+                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 mb-2 w-full  rounded-xl text-xs md:text-sm">
+                    Tailwind
                   </li>
-                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 rounded-xl text-sm ">
+                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 mb-2 w-full  rounded-xl text-xs md:text-sm ">
                     Javascript
                   </li>
                 </ul>
@@ -64,17 +64,17 @@ const Works = () => {
             <img src={weather} alt="" className="w-full rounded-xl" />
             <div className="mx-4 flex flex-col justify-center items-center">
               <div className="my-2">
-                <ul className="flex flex-row">
-                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 rounded-xl text-sm">
+                <ul className="grid grid-cols-3 md:grid-cols-4 ">
+                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 mb-2 w-full rounded-xl text-xs md:text-sm">
                     Reactjs
                   </li>
-                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 rounded-xl text-sm">
+                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 mb-2 w-full rounded-xl text-xs md:text-sm">
                     HTML
                   </li>
-                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 rounded-xl text-sm">
-                    TailwindCSS
+                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 mb-2 w-full rounded-xl text-xs md:text-sm">
+                    Tailwind
                   </li>
-                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 rounded-xl text-sm ">
+                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 mb-2 w-full rounded-xl text-xs md:text-sm ">
                     Javascript
                   </li>
                 </ul>
@@ -100,26 +100,26 @@ const Works = () => {
             <img src={image} alt="" className="w-full rounded-xl" />
             <div className="mx-4 flex flex-col justify-center items-center">
               <div className="my-2">
-                <ul className="grid grid-cols-4 gap-1">
+                <ul className="grid grid-cols-3 md:grid-cols-4 ">
                   <li className="bg-zinc-700 text-gray-300 px-2 mr-3 rounded-xl text-xs md:text-sm">
                     Reactjs
                   </li>
-                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 rounded-xl text-sm">
+                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 mb-2 w-full rounded-xl text-xs md:text-sm">
                     HTML
                   </li>
-                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 rounded-xl text-sm">
+                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 mb-2 w-full rounded-xl text-xs md:text-sm">
                     Tailwind
                   </li>
-                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 rounded-xl text-sm ">
+                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 mb-2 w-full rounded-xl text-xs md:text-sm ">
                     Javascript
                   </li>
-                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 rounded-xl text-sm ">
+                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 mb-2 w-full rounded-xl text-xs md:text-sm ">
                     Mongodb
                   </li>
-                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 rounded-xl text-sm ">
+                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 mb-2 w-full rounded-xl text-xs md:text-sm ">
                     Nodejs
                   </li>
-                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 rounded-xl text-sm ">
+                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 mb-2 w-full rounded-xl text-xs md:text-sm ">
                     Expressjs
                   </li>
                 </ul>
@@ -147,28 +147,28 @@ const Works = () => {
             <img src={youtubeClone} alt="" className="w-full rounded-xl" />
             <div className="mx-4 flex flex-col justify-center items-center">
               <div className="my-2">
-                <ul className="flex flex-row">
-                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 rounded-xl text-sm">
+                <ul className="grid grid-cols-3 md:grid-cols-4 ">
+                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 mb-2 w-full rounded-xl text-xs md:text-sm">
                     Reactjs
                   </li>
-                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 rounded-xl text-sm">
+                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 mb-2 w-full rounded-xl text-xs md:text-sm">
                     HTML
                   </li>
-                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 rounded-xl text-sm">
-                    TailwindCSS
+                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 mb-2 w-full rounded-xl text-xs md:text-sm">
+                    Tailwind
                   </li>
-                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 rounded-xl text-sm ">
+                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 mb-2 w-full rounded-xl text-xs md:text-sm ">
                     Javascript
                   </li>
                 </ul>
               </div>
               <p className="multiline text-white min-w-fit">
                 A simple youtube where I used external Api given to me for a
-                project. I build this clone using Reactjs, TailwindCSS
-                Javascript. The best thing I learned about is how to implement
-                pagination,so to do that I took help from youtube and chatgpt
-                and I did it at the end . I learned all the basic
-                implementation. <div className=""></div>
+                project. I build this clone using Reactjs,Tailwind Javascript.
+                The best thing I learned about is how to implement pagination,so
+                to do that I took help from youtube and chatgpt and I did it at
+                the end . I learned all the basic implementation.{" "}
+                <div className=""></div>
               </p>
               <div className="flex flex-row">
                 <Link to="https://grocare-youtube-clone.vercel.app/">
@@ -190,17 +190,17 @@ const Works = () => {
             <img src={foodPage} alt="" className="w-fullrounded-xl" />
             <div className="mx-4 flex flex-col justify-center items-center">
               <div className="my-2">
-                <ul className="flex flex-row">
-                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 rounded-xl text-sm">
+                <ul className="grid grid-cols-3 md:grid-cols-4 ">
+                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 mb-2 w-full rounded-xl text-xs md:text-sm">
                     Reactjs
                   </li>
-                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 rounded-xl text-sm">
+                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 mb-2 w-full rounded-xl text-xs md:text-sm">
                     HTML
                   </li>
-                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 rounded-xl text-sm">
-                    TailwindCSS
+                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 mb-2 w-full rounded-xl text-xs md:text-sm">
+                    Tailwind
                   </li>
-                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 rounded-xl text-sm ">
+                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 mb-2 w-full rounded-xl text-xs md:text-sm ">
                     Javascript
                   </li>
                 </ul>

@@ -8,19 +8,19 @@ import { BsAwardFill } from "react-icons/bs";
 const Home1 = () => {
   return (
     <>
-      <div className="flex flex-col justify-center items-center skillsanimate">
+      <div className="flex flex-col justify-center items-center skillsanimate w-screen">
         <div className="flex flex-col justify-center items-center h-screen p-5">
           {/* left section */}
           <div className="flex flex-col  md:backdrop-blur-lg rounded-lg  shadow-lg shadow-black border-t-2 border-yellow-600 ">
-            <h1 className=" text-xs md:text-2xl text-white  w-fit px-2 my-2 m-auto">
+            <h1 className=" text-lg md:text-2xl text-white  w-fit px-2 my-2 m-auto">
               Hi, I'm Punam Kumari
             </h1>
-            <h1 className="mx-6 text-sm md:text-2xl text-center font-bold text-yellow-600">
+            <h1 className="mx-6 text-lg md:text-2xl text-center font-bold text-yellow-600">
               Frontend Developer
               {/* <BsAwardFill className="text-yellow-600" /> */}
             </h1>
 
-            <p className=" text-white font-bold  sm:text-md  md:text-2xl    md:mt-20 text-center ">
+            <p className=" text-white  md:font-bold  text-lg  md:text-2xl    md:mt-20 text-center ">
               “Every great developer you know got there by solving problems they
               were unqualified to solve until they actually did it.” – Patrick
               McKenzie

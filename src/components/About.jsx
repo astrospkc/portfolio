@@ -40,18 +40,22 @@ const About = () => {
 
           {/* my service */}
           <div className="mt-20 flex flex-col justify-center items-center ">
-            <h2 className="text-3xl font-bold my-4 text-gray-500">
+            <h2 className="text-2xl md:text-3xl font-bold my-4 text-gray-500">
               My Service
             </h2>
 
             <div className="grid grid-cols-2 ">
               <div className=" my-3  ">
                 <FaReact className="text-7xl text-cyan-500 m-auto h-[90px] " />
-                <h1 className="text-2xl font-bold text-white">Front-End </h1>
+                <h1 className="text-lg md:text-2xl font-bold text-white">
+                  Front-End{" "}
+                </h1>
               </div>
               <div className="mx-11 my-3 ">
                 <img src={movie} alt="" className="h-[90px] m-auto" />
-                <h1 className="text-2xl font-bold text-white">Logo Design</h1>
+                <h1 className="text-lg md:text-2xl font-bold text-white">
+                  Logo Design
+                </h1>
               </div>
             </div>
           </div>

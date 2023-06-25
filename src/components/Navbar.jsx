@@ -17,7 +17,7 @@ const Navbar = () => {
   }
   return (
     <>
-      <div className="md:hidden justify-self-start m-4" onClick={handleToggle}>
+      <div className="md:hidden justify-self-start m-4 " onClick={handleToggle}>
         {!toggleMenu && (
           <div className="md:hidden text-white ">
             <BsList className="text-black text-4xl bg-yellow-500 rounded-full p-2" />
