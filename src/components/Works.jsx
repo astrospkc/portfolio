@@ -48,12 +48,12 @@ const Works = () => {
               </p>
               <div className="flex flex-row">
                 <Link to="https://movie-app-gamma-orpin.vercel.app/">
-                  <button className="px-2 border-r-2 border-l-2 rounded-lg mt-4 mx-3 text-yellow-600 ">
+                  <button className="px-2 border-r-2 border-l-2 rounded-lg mt-4 mx-3 text-sm md:text-lg text-yellow-600 ">
                     View site
                   </button>
                 </Link>
                 <Link to="https://github.com/astrospkc/movie-app">
-                  <button className="px-2 border-r-2 border-l-2 rounded-lg mt-4 text-yellow-600 ">
+                  <button className="px-2 border-r-2 border-l-2 rounded-lg mt-4 text-sm md:text-lg text-yellow-600 ">
                     View Code
                   </button>
                 </Link>
@@ -84,12 +84,12 @@ const Works = () => {
               </p>
               <div className="flex flex-row">
                 <Link to="https://weather-info-eight.vercel.app/">
-                  <button className="px-2 border-r-2 border-l-2 rounded-lg mt-4 mx-4 text-yellow-600  ">
+                  <button className="px-2 border-r-2 border-l-2 rounded-lg mt-4 mx-4 text-sm md:text-lg text-yellow-600  ">
                     View site
                   </button>
                 </Link>
                 <Link to="https://github.com/astrospkc/weather-info">
-                  <button className="px-2 border-r-2 border-l-2 rounded-lg mt-4 text-yellow-600 ">
+                  <button className="px-2 border-r-2 border-l-2 rounded-lg mt-4 text-sm md:text-lg text-yellow-600 ">
                     View Code
                   </button>
                 </Link>
@@ -130,12 +130,12 @@ const Works = () => {
               </p>
               <div className="flex flex-row">
                 <Link to="https://v-blog-7m8n.vercel.app/">
-                  <button className=" px-2 border-r-2 border-l-2 rounded-lg mt-4 mx-4 text-yellow-600 ">
+                  <button className=" px-2 border-r-2 border-l-2 rounded-lg mt-4 mx-4 text-sm md:text-lg text-yellow-600 ">
                     View site
                   </button>
                 </Link>
                 <Link to="https://github.com/astrospkc/v-blog">
-                  <button className="px-2 border-r-2 border-l-2 rounded-lg mt-4 text-yellow-600 ">
+                  <button className="px-2 border-r-2 border-l-2 rounded-lg mt-4 text-sm md:text-lg text-yellow-600 ">
                     View Code
                   </button>
                 </Link>
@@ -172,12 +172,12 @@ const Works = () => {
               </p>
               <div className="flex flex-row">
                 <Link to="https://grocare-youtube-clone.vercel.app/">
-                  <button className=" px-2 border-r-2 border-l-2 rounded-lg mt-4 mx-4 text-yellow-600 ">
+                  <button className=" px-2 border-r-2 border-l-2 rounded-lg mt-4 mx-4 text-sm md:text-lg text-yellow-600 ">
                     View site
                   </button>
                 </Link>
                 <Link to="https://github.com/astrospkc/grocare-youtubeClone-">
-                  <button className="px-2 border-r-2 border-l-2 rounded-lg mt-4 text-yellow-600 ">
+                  <button className="px-2 border-r-2 border-l-2 rounded-lg mt-4 text-sm md:text-lg text-yellow-600 ">
                     View Code
                   </button>
                 </Link>
@@ -212,12 +212,12 @@ const Works = () => {
               </p>
               <div className="flex flex-row">
                 <Link to="https://chefkart-tau.vercel.app/">
-                  <button className=" px-2 border-r-2 border-l-2 rounded-lg mt-4 mx-4 text-yellow-600 ">
+                  <button className=" px-2 border-r-2 border-l-2 rounded-lg mt-4 mx-4 text-sm md:text-lg text-yellow-600 ">
                     View site
                   </button>
                 </Link>
                 <Link to="https://github.com/astrospkc/chefkart">
-                  <button className="px-2 border-r-2 border-l-2 rounded-lg mt-4 text-yellow-600 ">
+                  <button className="px-2 border-r-2 border-l-2 rounded-lg mt-4 text-sm md:text-lg text-yellow-600 ">
                     View Code
                   </button>
                 </Link>
