@@ -20,7 +20,7 @@ const Contacts = () => {
             </h1>
           </div>
 
-          <div className="  text-white w-fit md:w-1/2 m-4">
+          <div className="  text-white w-fit md:w-1/2 ">
             <div className="flex flex-row m-9  hover:cursor-pointer  ">
               <BsLinkedin className="text-4xl  " />
               <Link to="https://www.linkedin.com/in/punam-kumari-2018951b6/">

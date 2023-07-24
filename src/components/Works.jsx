@@ -17,7 +17,54 @@ const Works = () => {
             Projects
           </h1>
         </div>
-
+        {/* blogging app */}
+        <div className="flex  flex-col justify-center items-center m-4   p-3 shadow-lg shadow-black w-fit  rounded-xl">
+          <img src={image} alt="" className="w-full rounded-xl" />
+          <div className="mx-4 flex flex-col justify-center items-center">
+            <div className="my-2">
+              <ul className="grid grid-cols-3 md:grid-cols-4 ">
+                <li className="bg-zinc-700 text-gray-300 px-2 mr-3 rounded-xl text-xs md:text-sm">
+                  Reactjs
+                </li>
+                <li className="bg-zinc-700 text-gray-300 px-2 mr-3 mb-2 w-full rounded-xl text-xs md:text-sm">
+                  HTML
+                </li>
+                <li className="bg-zinc-700 text-gray-300 px-2 mr-3 mb-2 w-full rounded-xl text-xs md:text-sm">
+                  Tailwind
+                </li>
+                <li className="bg-zinc-700 text-gray-300 px-2 mr-3 mb-2 w-full rounded-xl text-xs md:text-sm ">
+                  Javascript
+                </li>
+                <li className="bg-zinc-700 text-gray-300 px-2 mr-3 mb-2 w-full rounded-xl text-xs md:text-sm ">
+                  Mongodb
+                </li>
+                <li className="bg-zinc-700 text-gray-300 px-2 mr-3 mb-2 w-full rounded-xl text-xs md:text-sm ">
+                  Nodejs
+                </li>
+                <li className="bg-zinc-700 text-gray-300 px-2 mr-3 mb-2 w-full rounded-xl text-xs md:text-sm ">
+                  Expressjs
+                </li>
+              </ul>
+            </div>
+            <p className="multiline text-white">
+              Simple blogging website where we can write up our blog and post
+              it. Features added - delete , add, edit <div className=""></div>
+            </p>
+            <div className="flex flex-row">
+              <Link to="https://v-blog-7m8n.vercel.app/">
+                <button className=" px-2 border-r-2 border-l-2 rounded-lg mt-4 mx-4 text-sm md:text-lg text-yellow-600 ">
+                  View site
+                </button>
+              </Link>
+              <Link to="https://github.com/astrospkc/v-blog">
+                <button className="px-2 border-r-2 border-l-2 rounded-lg mt-4 text-sm md:text-lg text-yellow-600 ">
+                  View Code
+                </button>
+              </Link>
+            </div>
+          </div>
+        </div>
+        {/* movie app */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-1 my-5 skillsanimate justify-center items-center  ">
           <div className="flex  flex-col justify-center items-center m-4  p-3 shadow-lg shadow-black w-fit rounded-xl ">
             <img
@@ -60,19 +107,17 @@ const Works = () => {
               </div>
             </div>
           </div>
+          {/* weather app */}
           <div className="flex  flex-col justify-center items-center m-4   p-3 shadow-lg shadow-black w-fit rounded-xl">
             <img src={weather} alt="" className="w-full rounded-xl" />
             <div className="mx-4 flex flex-col justify-center items-center">
               <div className="my-2">
                 <ul className="grid grid-cols-3 md:grid-cols-4 ">
                   <li className="bg-zinc-700 text-gray-300 px-2 mr-3 mb-2 w-full rounded-xl text-xs md:text-sm">
-                    Reactjs
-                  </li>
-                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 mb-2 w-full rounded-xl text-xs md:text-sm">
                     HTML
                   </li>
                   <li className="bg-zinc-700 text-gray-300 px-2 mr-3 mb-2 w-full rounded-xl text-xs md:text-sm">
-                    Tailwind
+                    CSS
                   </li>
                   <li className="bg-zinc-700 text-gray-300 px-2 mr-3 mb-2 w-full rounded-xl text-xs md:text-sm ">
                     Javascript
@@ -96,53 +141,9 @@ const Works = () => {
               </div>
             </div>
           </div>
-          <div className="flex  flex-col justify-center items-center m-4   p-3 shadow-lg shadow-black w-fit  rounded-xl">
-            <img src={image} alt="" className="w-full rounded-xl" />
-            <div className="mx-4 flex flex-col justify-center items-center">
-              <div className="my-2">
-                <ul className="grid grid-cols-3 md:grid-cols-4 ">
-                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 rounded-xl text-xs md:text-sm">
-                    Reactjs
-                  </li>
-                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 mb-2 w-full rounded-xl text-xs md:text-sm">
-                    HTML
-                  </li>
-                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 mb-2 w-full rounded-xl text-xs md:text-sm">
-                    Tailwind
-                  </li>
-                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 mb-2 w-full rounded-xl text-xs md:text-sm ">
-                    Javascript
-                  </li>
-                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 mb-2 w-full rounded-xl text-xs md:text-sm ">
-                    Mongodb
-                  </li>
-                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 mb-2 w-full rounded-xl text-xs md:text-sm ">
-                    Nodejs
-                  </li>
-                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 mb-2 w-full rounded-xl text-xs md:text-sm ">
-                    Expressjs
-                  </li>
-                </ul>
-              </div>
-              <p className="multiline text-white">
-                Simple blogging website where we can write up our blog and post
-                it. Features added - delete , add, edit <div className=""></div>
-              </p>
-              <div className="flex flex-row">
-                <Link to="https://v-blog-7m8n.vercel.app/">
-                  <button className=" px-2 border-r-2 border-l-2 rounded-lg mt-4 mx-4 text-sm md:text-lg text-yellow-600 ">
-                    View site
-                  </button>
-                </Link>
-                <Link to="https://github.com/astrospkc/v-blog">
-                  <button className="px-2 border-r-2 border-l-2 rounded-lg mt-4 text-sm md:text-lg text-yellow-600 ">
-                    View Code
-                  </button>
-                </Link>
-              </div>
-            </div>
-          </div>
 
+          {/* youtube shorts clone
+           */}
           <div className="flex  flex-col justify-center items-center m-4   p-3 shadow-lg shadow-black w-fit  rounded-xl">
             <img src={youtubeClone} alt="" className="w-full rounded-xl" />
             <div className="mx-4 flex flex-col justify-center items-center">
