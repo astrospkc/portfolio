@@ -1,7 +1,7 @@
 import React from "react";
 import style from "./style";
 import { Link } from "react-router-dom";
-import weather from "./weather.png";
+import weatherImage from "../Images/weatherImage";
 import web from "./web.jpg";
 import movieFrontImage from "./movie.png";
 import image from "./blog.png";
@@ -109,7 +109,7 @@ const Works = () => {
           </div>
           {/* weather app */}
           <div className="flex  flex-col justify-center items-center m-4   p-3 shadow-lg shadow-black w-fit rounded-xl">
-            <img src={weather} alt="" className="w-full rounded-xl" />
+            <img src={weatherImage} alt="" className="w-full rounded-xl" />
             <div className="mx-4 flex flex-col justify-center items-center">
               <div className="my-2">
                 <ul className="grid grid-cols-3 md:grid-cols-4 ">
