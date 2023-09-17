@@ -1,7 +1,7 @@
 import React from "react";
 import style from "./style";
 import { Link } from "react-router-dom";
-import weatherImage from "../Images/weatherImage";
+import weatherImage from "../Images/weatherImage.png";
 import web from "./web.jpg";
 import movieFrontImage from "./movie.png";
 import image from "./blog.png";

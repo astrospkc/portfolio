@@ -31,10 +31,13 @@ const About = () => {
               style={style}
               className="text-lg mr-3 text-white w-1/2 text-center"
             >
-              A really passionate person for what I really love to do. I am a
-              BSc. graduate in Physics and I switched my career into frontend
-              development. I like to create and learn new things and implement
-              things on my projects.
+              Hello , myself Punam and I am a passionate frontend developer.I have a very diverse education but with a great interest and after exploring many fields , I chose this field and I am grateful for knowing about my interest in this field.
+
+              Expertise: I am experienced with Reactjs , Javascript, Python , Mongodb , Nodejs, and Nextjs. I have worked on some projects for the better understanding of this field and still exploring and learning more about this technology.I thrive on creating more creative website and with more functionality. Its only a start , I happen to build more user friendly and profitable website.
+
+              Passion and Motivation: I'm driven by a relentless passion for simplicity. Every project is an opportunity to push the boundaries of creativity and innovation. I thrive on challenges and the opportunity to bring fresh, innovative perspectives to the table.
+
+              When I am not working on any project, you can find me exploring more about new technologies and how the other developers are working and their way of working and solving skills and how they execute any task. I love to learn more from any developers who are working on new technology and how they are doing.
             </p>
           </div>
 
