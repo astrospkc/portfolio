@@ -19,12 +19,20 @@ const Works = () => {
         </div>
         {/* blogging app */}
         <div className="flex  flex-col justify-center items-center m-4   p-3 shadow-lg shadow-black w-fit  rounded-xl">
-          <img src={image} alt="" className="w-full rounded-xl" />
-          <div className="mx-4 flex flex-col justify-center items-center">
+          <div className="mx-16 my-9 md:my-1 relative hover:cursor-pointer hover:bg-yellow-800 rounded-3xl text-gray-500 hover:text-white">
+          <img src={image} alt="" className="w-full rounded-xl opacity-40 md:opacity-20 hover:opacity-60 " />
+          <div className="absolute top-[50%] left-[30%] hover:hidden">
+                
+                  FEEDS
+                
+              </div>
+          </div>
+          
+          <div className="mx-4 flex flex-col justify-center items-center hover:opacity-70">
             <div className="my-2">
               <ul className="grid grid-cols-3 md:grid-cols-4 ">
-                <li className="bg-zinc-700 text-gray-300 px-2 mr-3 rounded-xl text-xs md:text-sm">
-                  Reactjs
+                <li className="bg-zinc-700 text-gray-300 px-2 mr-3 mb-2 rounded-xl text-xs md:text-sm">
+                Reactjs
                 </li>
                 <li className="bg-zinc-700 text-gray-300 px-2 mr-3 mb-2 w-full rounded-xl text-xs md:text-sm">
                   HTML
@@ -74,17 +82,17 @@ const Works = () => {
             />
             <div className="mx-4 flex flex-col justify-center items-center w-fit">
               <div className="my-2">
-                <ul className="grid grid-cols-3 md:grid-cols-4 ">
-                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 mb-2 w-full rounded-xl text-xs md:text-sm">
+                <ul className="grid grid-cols-3 md:grid-cols-4 my-3 ">
+                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 mb-2  w-full rounded-xl text-xs md:text-sm">
                     Reactjs
                   </li>
-                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 mb-2 w-full  rounded-xl text-xs md:text-sm">
+                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 mb-2  w-full  rounded-xl text-xs md:text-sm">
                     HTML
                   </li>
                   <li className="bg-zinc-700 text-gray-300 px-2 mr-3 mb-2 w-full  rounded-xl text-xs md:text-sm">
                     Tailwind
                   </li>
-                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 mb-2 w-full  rounded-xl text-xs md:text-sm ">
+                  <li className="bg-zinc-700 text-gray-300 px-2 mr-3 mb-2  w-full  rounded-xl text-xs md:text-sm ">
                     Javascript
                   </li>
                 </ul>
