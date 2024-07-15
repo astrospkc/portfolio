@@ -7,6 +7,46 @@ import { BsKeyFill } from "react-icons/bs";
 import { BsSendFill } from "react-icons/bs";
 import { BsPersonCircle } from "react-icons/bs";
 import { BsHouseDoorFill } from "react-icons/bs";
+import { BsFillPenFill } from "react-icons/bs";
+import { BsFillPaletteFill } from "react-icons/bs";
+
+const navbarButtons = [
+  {
+    id: 1,
+    name: "Home",
+    icon: <BsHouseDoorFill className="my-auto mx-3" />,
+  },
+  {
+    id: 2,
+    name: "About",
+    icon: <BsPersonCircle className="my-auto mx-3" />,
+  },
+  {
+    id: 3,
+    name: "Works",
+    icon: <BsEyeFill className="my-auto mx-3" />,
+  },
+  {
+    id: 4,
+    name: "Skills",
+    icon: <BsKeyFill className="my-auto mx-3" />,
+  },
+  {
+    id: 5,
+    name: "Contacts",
+    icon: <BsSendFill className="my-auto mx-3" />,
+  },
+  {
+    id: 6,
+    name: "Blogs",
+    icon: <BsFillPenFill className="my-auto mx-3" />,
+  },
+  {
+    id: 7,
+    name: "sketches",
+    icon: <BsFillPaletteFill className="my-auto mx-3" />,
+  },
+];
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -46,28 +86,17 @@ const Navbar = () => {
           }
           // className=" hover:text-yellow-500 flex flex-col m-3 "
         >
-          <li className="flex flex-row m-4 text-white px-3 border-b-2 md:border-b-0 border-gray-800 hover:text-yellow-500">
-            <BsHouseDoorFill className="my-auto mx-3" />
-            <Link to="/">Home</Link>
-          </li>
-
-          <li className=" flex flex-row m-4 text-white px-3  border-b-2 md:border-b-0 border-gray-800 hover:text-yellow-500">
-            <BsPersonCircle className="my-auto mx-3" />
-            <Link to="/about">About</Link>
-          </li>
-
-          <li className="flex flex-row m-4 text-white px-3 border-b-2 md:border-b-0 border-gray-800 hover:text-yellow-500">
-            <BsEyeFill className="my-auto mx-3" />
-            <Link to="/works">Works</Link>
-          </li>
-          <li className="flex flex-row m-4 text-white px-3 border-b-2 md:border-b-0 border-gray-800 hover:text-yellow-500">
-            <BsKeyFill className="my-auto mx-3" />
-            <Link to="/skills">Skills</Link>
-          </li>
-          <li className="flex flex-row m-4 text-white px-3 border-b-2 md:border-b-0 border-gray-800 hover:text-yellow-500">
-            <BsSendFill className="my-auto mx-3" />
-            <Link to="/contacts">Contacts</Link>
-          </li>
+          {navbarButtons.map((i) => {
+            return (
+              <li
+                key={i.id}
+                className="flex flex-row m-4 text-white px-3 border-b-2 md:border-b-0 border-gray-800 hover:text-yellow-500"
+              >
+                {i.icon}
+                <Link to="/">{i.name}</Link>
+              </li>
+            );
+          })}
         </ul>
       </div>
     </>

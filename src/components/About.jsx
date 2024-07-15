@@ -7,7 +7,10 @@ import movie from "./logo.png";
 const About = () => {
   return (
     <>
-      <div  style={{backgroundImage:'url('}} className="  flex flex-col  justify-center items-center  ">
+      <div
+        style={{ backgroundImage: "url(images/)" }}
+        className="  flex flex-col  justify-center items-center  "
+      >
         <div className=" text-center ">
           <h2 className=" text-3xl md:text-6xl font-bold my-4 text-gray-500 text-center ">
             About Me
@@ -23,7 +26,7 @@ const About = () => {
             Hello, I'm Punam Kumari
           </h3>
           <h3 className="text-yellow-600 text-2xl skillsanimate ">
-            Frontend Developer
+            Fullstack Developer
           </h3>
 
           <div className="text-2xl ml-1 flex flex-col justify-center items-center ">
@@ -31,11 +34,37 @@ const About = () => {
               style={style}
               className="flex flex-col text-lg mr-3 text-white w-1/2 text-center"
             >
-              <p className="my-2">Hello , myself Punam and I am a passionate frontend developer.I have a very diverse education but with a great interest and after exploring many fields , I chose this field and I am grateful for knowing about my interest in this field.</p>
-              <p className="my-2"><b className="text-yellow-500 text-xl">Expertise:</b> I am experienced with Reactjs , Javascript, Python , Mongodb , Nodejs, and Nextjs. I have worked on some projects for the better understanding of this field and still exploring and learning more about this technology.I thrive on creating more creative website and with more functionality. Its only a start , I happen to build more user friendly and profitable website.</p>
-              <p className="my-2"><b className="text-yellow-500 text-xl">Passion and Motivation:</b> I'm driven by a relentless passion for simplicity. Every project is an opportunity to push the boundaries of creativity and innovation. I thrive on challenges and the opportunity to bring fresh, innovative perspectives to the table.</p>
-              <p className="my-2">When I am not working on any project, you can find me exploring more about new technologies and how the other developers are working and their way of working and solving skills and how they execute any task. I love to learn more from any developers who are working on new technology and how they are doing.</p>
-             
+              <p className="my-2">
+                Hello , myself Punam and I am a fullstack developer.I have a
+                very diverse education but with a great interest and after
+                exploring many fields , I chose this field and I am grateful for
+                knowing about my interest in this field.
+              </p>
+              <p className="my-2">
+                <b className="text-yellow-500 text-xl">Expertise:</b> I am
+                experienced with Reactjs , Javascript, Python , Mongodb ,
+                Nodejs, and Nextjs. I have worked on some projects for the
+                better understanding of this field and still exploring and
+                learning more about this technology.I thrive on creating more
+                creative website and with more functionality. Its only a start ,
+                I happen to build more user friendly and profitable website.
+              </p>
+              <p className="my-2">
+                <b className="text-yellow-500 text-xl">
+                  Passion and Motivation:
+                </b>{" "}
+                I'm driven by a relentless passion for simplicity. Every project
+                is an opportunity to push the boundaries of creativity and
+                innovation. I thrive on challenges and the opportunity to bring
+                fresh, innovative perspectives to the table.
+              </p>
+              <p className="my-2">
+                When I am not working on any project, you can find me exploring
+                more about new technologies and how the other developers are
+                working and their way of working and solving skills and how they
+                execute any task. I love to learn more from any developers who
+                are working on new technology and how they are doing.
+              </p>
             </p>
           </div>
 

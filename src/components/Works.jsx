@@ -23,7 +23,7 @@ const Works = () => {
           <img src={image} alt="" className="w-full rounded-xl opacity-40 md:opacity-20 hover:opacity-60 " />
           <div className="absolute top-[50%] left-[30%] hover:hidden">
                 
-                  FEEDS
+                  <h1 className="text-bold text-xl md:text-3xl">V-Blog</h1>
                 
               </div>
           </div>
@@ -80,6 +80,11 @@ const Works = () => {
               alt=""
               className="w-full rounded-xl mb-4"
             />
+            <div className="absolute top-[50%] left-[30%] hover:hidden">
+                
+                <h1 className="text-bold text-xl md:text-3xl">V-App</h1>
+              
+            </div>
             <div className="mx-4 flex flex-col justify-center items-center w-fit">
               <div className="my-2">
                 <ul className="grid grid-cols-3 md:grid-cols-4 my-3 ">
