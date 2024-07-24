@@ -15,6 +15,7 @@ import WorkSample from "./components/WorkSample";
 import TechnicalBlog from "./components/TechnicalBlog";
 import NonTechnicalBlog from "./components/NonTechnicalBlog";
 import Sketches from "./components/Sketches";
+import ExperimentalThings from "./components/ExperimentalThings";
 
 function App() {
   return (
@@ -39,6 +40,10 @@ function App() {
               <Route path="/technical" element={<TechnicalBlog />} />
               <Route path="/nonTechnical" element={<NonTechnicalBlog />} />
               <Route path="/sketches" element={<Sketches />} />
+              <Route
+                path="/experimentalProjects"
+                element={<ExperimentalThings />}
+              />
             </Routes>
           </div>
         </div>

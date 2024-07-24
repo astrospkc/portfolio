@@ -10,7 +10,7 @@ import { BsMedium } from "react-icons/bs";
 const Contacts = () => {
   return (
     <>
-      <div className="h-screen grid grid-cols-1 md:grid-cols-2 justify-center items-center my-10 w-fit ">
+      <div className="h-screen grid grid-cols-1 md:grid-cols-2 justify-center items-center my-10 w-fit  ">
         <h1 className=" shadow-lg shadow-black  p-4 text-center font-bold text-2xl md:text-4xl text-gray-900 mt-8 ">
           CONTACT
         </h1>
@@ -23,7 +23,7 @@ const Contacts = () => {
               </h1>
             </div>
 
-            <div className=" flex flex-col md:flex-col text-white w-fit  ">
+            <div className=" flex flex-col md:flex-col text-white w-fit bg-gray-400 rounded-3xl p-4 ">
               <div className="flex flex-row mb-9 mx-9  hover:cursor-pointer hover:bg-yellow-600 rounded-full p-2 ">
                 <BsLinkedin className="text-4xl  " />
                 <Link to="https://www.linkedin.com/in/punam-kumari-2018951b6/">

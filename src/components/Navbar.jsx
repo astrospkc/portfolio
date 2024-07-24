@@ -53,6 +53,13 @@ const navbarButtons = [
     icon: <BsFillPaletteFill className="my-auto mx-3" />,
     link: "/sketches",
   },
+  {
+    id: 8,
+    name: "Experimental Projects",
+    icon: <BsEyeFill className="my-auto mx-3" />,
+
+    link: "/experimentalProjects",
+  },
 ];
 
 const Navbar = () => {
