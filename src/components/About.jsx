@@ -5,14 +5,12 @@ import { FaReact } from "react-icons/fa";
 import { BsHandIndexFill } from "react-icons/bs";
 import movie from "./logo.png";
 const About = () => {
+  // style={{ background-image: `url('../Images/expImage.jpg')` }}
   return (
     <>
-      <div
-        style={{ backgroundImage: "url(images/)" }}
-        className="  flex flex-col  justify-center items-center  "
-      >
+      <div className="min-h-full bg-gradient-to-r from-indigo-400 to-indigo-950  flex flex-col  justify-center items-center ">
         <div className=" text-center ">
-          <h2 className=" text-3xl md:text-6xl font-bold my-4 text-gray-500 text-center ">
+          <h2 className=" text-3xl md:text-6xl font-bold my-4 text-gray-600 text-center ">
             About Me
           </h2>
           <span className="flex justify-center items-center m-auto text-yellow-600 hover:cursor-pointer tooltip ">
@@ -70,7 +68,7 @@ const About = () => {
 
           {/* my service */}
           <div className="mt-20 flex flex-col justify-center items-center ">
-            <h2 className="text-2xl md:text-3xl font-bold my-4 text-gray-500">
+            <h2 className=" text-3xl md:text-6xl font-bold my-4 text-gray-600 text-center ">
               My Service
             </h2>
 

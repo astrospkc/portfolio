@@ -11,8 +11,11 @@
       rgba(207, 241, 240, 1) 0%,
       rgba(2, 16, 52, 0.8771498771498771) 100%
     ); */
-    background-color: rgb(26, 25, 25);
+    /* background-color: rgb(26, 25, 25); */
     font-family: "Merriweather Sans", sans-serif;
+  }
+  :root{
+    --hero-pattern:url('../Images/expImage.jpg')
   }
 
   .container {
@@ -52,6 +55,12 @@
     font-weight: 500;
     color: gray;
   }
+
+  .exp-image-container {
+  background-image: url("expImage.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 }
 
 @layer utilities {

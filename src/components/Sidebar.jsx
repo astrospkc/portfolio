@@ -39,6 +39,10 @@ const Sidebar = () => {
             Skills
           </div>
           <div className="p-2 m-1 text-white bg-zinc-800 rounded-xl flex flex-col hover:bg-gray-600 cursor-pointer">
+            <BsKeyFill className="m-auto" />
+            Experimental Projects
+          </div>
+          <div className="p-2 m-1 text-white bg-zinc-800 rounded-xl flex flex-col hover:bg-gray-600 cursor-pointer">
             <BsSendFill className="m-auto" />
             Contacts
           </div>
