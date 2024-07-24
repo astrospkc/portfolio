@@ -11,7 +11,7 @@ import WorkSample from "./WorkSample";
 const Home1 = () => {
   return (
     <>
-      <div className=" h-full bg-gradient-to-r from-cyan-800 to-violet-400  flex flex-col justify-center items-center skillsanimate w-screen">
+      <div className=" h-full  bg-gradient-to-r from-cyan-800 to-violet-400  flex flex-col justify-center items-center skillsanimate w-screen">
         <div className="flex flex-col md:flex-row justify-around items-center h-screen p-5">
           {/* left section */}
           <div
