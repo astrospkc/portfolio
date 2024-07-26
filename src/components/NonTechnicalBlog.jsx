@@ -40,7 +40,7 @@ const NonTechnicalBlog = () => {
         <div className="justify-center items-center m-auto flex p-10 border-black border-2 text-2xl font-bold">
           Non-Technical Blogs
         </div>
-        <div className="grid grid-cols-2 w-screen h-screen justify-between items-center px-20 border-2 border-gray-400">
+        <div className="grid grid-cols-1 md:grid-cols-2 w-screen h-screen justify-between items-center px-20 border-2 border-gray-400">
           {blogTitle.map((blog) => {
             return (
               <div
