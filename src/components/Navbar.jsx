@@ -107,7 +107,7 @@ const Navbar = () => {
             return (
               <li
                 key={i.id}
-                className="flex flex-row m-4 text-black font-bold px-3 border-b-2 md:border-b-0 border-gray-800 hover:text-yellow-500"
+                className="flex flex-row m-4 text-black md:text-white font-bold px-3 border-b-2 md:border-b-0 border-gray-800 hover:text-yellow-500"
                 onClick={handleToggle}
               >
                 {/* {i.icon} */}
