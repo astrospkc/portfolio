@@ -81,52 +81,55 @@ const WorkSample = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-1 my-5 skillsanimate justify-center items-center  ">
           {works.map((work) => {
             return (
-              <div
-                key={work.id}
-                className="flex  flex-col justify-center relative items-center m-4  p-3 shadow-lg shadow-black w-fit rounded-xl "
-              >
-                <img
-                  src={work.imageLink}
-                  alt=""
-                  className="w-full rounded-xl mb-4"
-                />
-                <div className="absolute top-[50%] left-[30%] hover:hidden">
-                  <h1 className="text-bold text-xl md:text-3xl">
-                    {work.title}
-                  </h1>
-                </div>
-                <div className="mx-4 flex flex-col justify-center items-center w-fit">
-                  <div className="my-2">
-                    <ul className="grid grid-cols-3 md:grid-cols-4 my-3 ">
-                      {work.toolsUsed.map((tool, index) => {
-                        return (
-                          <li
-                            key={index}
-                            className="bg-zinc-700 text-gray-300 px-2 mr-3 mb-2  w-full rounded-xl text-xs md:text-sm"
-                          >
-                            {tool}
-                          </li>
-                        );
-                      })}
-                    </ul>
+              <Link to={work.siteLink} key={work.id}>
+                <div className="relative">
+                  <div className="flex  flex-col justify-center  items-center m-4  p-3 shadow-lg shadow-black w-fit rounded-xl opacity-15 hover:opacity-100 ">
+                    <img
+                      src={work.imageLink}
+                      alt=""
+                      className="w-full rounded-xl mb-4 "
+                    />
+
+                    <div className="mx-4 flex flex-col justify-center items-center w-fit">
+                      <div className="my-2">
+                        <ul className="grid grid-cols-3 md:grid-cols-4 my-3 ">
+                          {work.toolsUsed.map((tool, index) => {
+                            return (
+                              <li
+                                key={index}
+                                className="bg-zinc-700 text-gray-300 px-2 mr-3 mb-2  w-full rounded-xl text-xs md:text-sm"
+                              >
+                                {tool}
+                              </li>
+                            );
+                          })}
+                        </ul>
+                      </div>
+                      <p className="multiline text-white text-sm md:text-md w-fit ">
+                        {work.content}
+                      </p>
+                      <div className="flex flex-row">
+                        <Link to={work.siteLink}>
+                          <button className="px-2 border-r-2 border-l-2 rounded-lg mt-4 mx-3 text-sm md:text-lg text-yellow-600 ">
+                            View site
+                          </button>
+                        </Link>
+                        <Link to={work.githubLink}>
+                          <button className="px-2 border-r-2 border-l-2 rounded-lg mt-4 text-sm md:text-lg text-yellow-600 ">
+                            View Code
+                          </button>
+                        </Link>
+                      </div>
+                    </div>
                   </div>
-                  <p className="multiline text-white text-sm md:text-md w-fit ">
-                    {work.content}
-                  </p>
-                  <div className="flex flex-row">
-                    <Link to={work.siteLink}>
-                      <button className="px-2 border-r-2 border-l-2 rounded-lg mt-4 mx-3 text-sm md:text-lg text-yellow-600 ">
-                        View site
-                      </button>
-                    </Link>
-                    <Link to={work.githubLink}>
-                      <button className="px-2 border-r-2 border-l-2 rounded-lg mt-4 text-sm md:text-lg text-yellow-600 ">
-                        View Code
-                      </button>
-                    </Link>
+
+                  <div className="absolute top-[50%] left-[30%] hover:hidden">
+                    <h1 className="text-bold font-bold text-3xl md:text-3xl ">
+                      {work.title}
+                    </h1>
                   </div>
                 </div>
-              </div>
+              </Link>
             );
           })}
         </div>

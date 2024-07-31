@@ -28,14 +28,17 @@ const Home1 = () => {
               McKenzie
             </p>
           </div>
-          <div className="bg-red p-4  w-fit justify-center items-center m-auto border-l-2 ">
-            <h1 className=" flex flex-row text-xl md:text-5xl font-bold  text-yellow-400 ">
-              <span>Hi</span>{" "}
-              <BsEmojiSunglasses className="bg-yellow-500 text-black w-fit rounded-full" />
-            </h1>
-            <h1 className=" text-xl md:text-5xl font-bold   text-black  w-fit px-2 my-2 m-auto">
-              I'm Punam Kumari
-            </h1>
+          <div className="bg-red p-4 flex flex-col w-fit justify-center items-center m-auto ">
+            <div className="border-l-2 px-3 ">
+              <h1 className=" flex flex-row text-xl md:text-5xl font-bold  text-yellow-400 ">
+                <span>Hi</span>{" "}
+                <BsEmojiSunglasses className="bg-yellow-500 text-black w-fit rounded-full" />
+              </h1>
+              <h1 className=" text-xl md:text-5xl font-bold   text-black  w-fit px-2 my-2 m-auto">
+                I'm Punam Kumari
+              </h1>
+            </div>
+
             <DisplaySkills />
           </div>
         </div>
