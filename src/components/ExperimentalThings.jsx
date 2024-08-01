@@ -54,7 +54,7 @@ const works = [
 const ExperimentalThings = () => {
   return (
     <>
-      <div className="h-full bg-gradient-to-r   md:m-7  flex flex-col justify-center items-center  w-screen  md:p-5">
+      <div className="h-full bg-gradient-to-r from-red-950 to-blue-950   flex flex-col justify-center items-center  w-screen ">
         <div className="my-4 ">
           <h1 className=" text-3xl md:text-6xl font-semibold my-4 text-gray-600 text-center  ">
             EXPERIMENT
@@ -72,8 +72,8 @@ const ExperimentalThings = () => {
                   alt=""
                   className="w-full rounded-xl mb-4"
                 /> */}
-                <div className="absolute top-[50%] left-[30%] hover:hidden">
-                  <h1 className="text-bold text-xl md:text-3xl">
+                <div className="">
+                  <h1 className="text-bold text-xl text-gray-500 font-bold md:text-3xl">
                     {work.title}
                   </h1>
                 </div>

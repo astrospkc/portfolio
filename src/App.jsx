@@ -21,11 +21,11 @@ function App() {
     <>
       <Router>
         <div className="flex flex-col ">
-          <div className=" fixed  md:top-0 h-fit w-screen md:bg-black z-10  ">
+          <div className=" fixed  md:top-0 h-fit w-screen md:bg-black z-10 ">
             <Navbar />
           </div>
 
-          <div className="flex justify-center items-center w-full md:w-screen md:ml-auto py-14 ">
+          <div className="flex justify-center bg-black items-center w-full h-full md:w-screen md:ml-auto py-14 ">
             <Routes>
               <Route path="/" element={<HomeRecreate />} />
 
@@ -47,26 +47,6 @@ function App() {
           </div>
         </div>
       </Router>
-      {/* <Router>
-        <div className="flex flex-col overflow-x-hidden ">
-          <div className=" fixed md:left-0 md:top-0 h-fit md:h-screen w-fit md:w-[10%] md:bg-black z-10  ">
-            <Navbar />
-          </div>
-
-          <div className="flex justify-center items-center w-full md:w-[90%] md:ml-auto  ">
-            <Routes>
-              <Route path="/" element={<Home1 />} />
-
-              <Route path="/about" element={<About />} />
-
-              <Route path="/works" element={<Works />} />
-
-              <Route path="/skills" element={<Skills />} />
-              <Route path="/contacts" element={<Contacts />} />
-            </Routes>
-          </div>
-        </div>
-      </Router> */}
     </>
   );
 }

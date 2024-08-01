@@ -72,7 +72,7 @@ const works = [
 const WorkSample = () => {
   return (
     <>
-      <div className="h-full bg-gradient-to-r   md:m-7  flex flex-col justify-center items-center  w-screen  md:p-5">
+      <div className="h-full  bg-gradient-to-l from-violet-950 to-cyan-400 flex flex-col justify-center items-center  w-screen  ">
         <div className="my-4 ">
           <h1 className=" text-3xl md:text-6xl font-semibold my-4 text-gray-600 text-center  ">
             PROJECTS
@@ -83,7 +83,7 @@ const WorkSample = () => {
             return (
               <Link to={work.siteLink} key={work.id}>
                 <div className="relative">
-                  <div className="flex  flex-col justify-center  items-center m-4  p-3 shadow-lg shadow-black w-fit rounded-xl opacity-15 hover:opacity-100 ">
+                  <div className="flex  flex-col justify-center  items-center m-4  p-3 shadow-lg shadow-black w-fit rounded-xl ">
                     <img
                       src={work.imageLink}
                       alt=""
@@ -123,11 +123,11 @@ const WorkSample = () => {
                     </div>
                   </div>
 
-                  <div className="absolute top-[50%] left-[30%] hover:hidden">
+                  {/* <div className="absolute top-[50%] left-[30%] hover:hidden">
                     <h1 className="text-bold font-bold text-3xl md:text-3xl ">
                       {work.title}
                     </h1>
-                  </div>
+                  </div> */}
                 </div>
               </Link>
             );
