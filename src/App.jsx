@@ -5,8 +5,6 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import About from "./components/About";
 
-import Works from "./components/Works";
-
 import Skills from "./components/Skills";
 import Contacts from "./components/Contacts";
 import Navbar from "./components/Navbar";
@@ -16,6 +14,7 @@ import TechnicalBlog from "./components/TechnicalBlog";
 import NonTechnicalBlog from "./components/NonTechnicalBlog";
 import Sketches from "./components/Sketches";
 import ExperimentalThings from "./components/ExperimentalThings";
+import HomeRecreate from "./components/HomeRecreate";
 
 function App() {
   return (
@@ -28,7 +27,7 @@ function App() {
 
           <div className="flex justify-center items-center w-full md:w-screen md:ml-auto py-14 ">
             <Routes>
-              <Route path="/" element={<Home1 />} />
+              <Route path="/" element={<HomeRecreate />} />
 
               <Route path="/about" element={<About />} />
 

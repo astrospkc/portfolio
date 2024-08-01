@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import About from "./About";
-import Works from "./Works";
+
 import Skills from "./Skills";
 import Contacts from "./Contacts";
 import { BsAwardFill } from "react-icons/bs";

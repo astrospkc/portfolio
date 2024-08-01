@@ -3,26 +3,33 @@ import React from "react";
 const blogTitle = [
   {
     id: 1,
+    title: "Phase 1 of DSV",
+    content:
+      "Its a blog about my dsv project , it contains all the details and mind mapping of the project ",
+    link: "https://hashnode.com/post/clz9kzsc9000u08l8425b0rn4",
+  },
+  {
+    id: 2,
     title: "TODO Application — using file functions in Java",
     link: "https://medium.com/@punamkumari399/todo-application-using-file-functions-in-java-a7779ab2d591",
   },
   {
-    id: 2,
+    id: 3,
     title: "Traditional and JWT authentication difference",
     link: "https://punam-1674812033403.hashnode.dev/traditional-and-jwt-authentication-difference",
   },
   {
-    id: 3,
+    id: 4,
     title: "Using map and props in react to get data from .js file.",
     link: "https://punam-1674812033403.hashnode.dev/using-map-and-props-in-react-to-get-data-from-js-file",
   },
   {
-    id: 4,
+    id: 5,
     title: "How javascript works?",
     link: "https://punam-1674812033403.hashnode.dev/how-javascript-works",
   },
   {
-    id: 5,
+    id: 6,
     title: "JavaScript - setTimeout + closures",
     link: "https://punam-1674812033403.hashnode.dev/javascript-settimeout-closures",
   },
