@@ -110,7 +110,7 @@ const HomeRecreate = () => {
   return (
     <>
       <div className=" flex flex-col  bg-gradient-to-r bg-black skillsanimate ">
-        <div className=" flex flex-col justify-center items-center m-auto h-screen border-b-2 border-gray-500">
+        <div className=" flex flex-col justify-center items-center m-auto h-screen border-b-2 border-gray-500 static">
           <div className="flex flex-row border-dotted border-4  border-x-yellow-500 p-4 rounded-3xl  ">
             <div className="bg-red p-4 flex flex-col w-fit justify-center items-center m-auto ">
               <div className="border-l-2 px-3 ">
@@ -122,9 +122,9 @@ const HomeRecreate = () => {
                   I'm Punam Kumari
                 </h1>
               </div>
-              <div className="w-full">
+              {/* <div className="w-full flex-wrap">
                 <DisplaySkills />
-              </div>
+              </div> */}
               <div className="flex flex-col mt-5 items-center ">
                 <h1 className="text-sm font-bold  text-gray-500">
                   Scroll down to know me
@@ -134,13 +134,16 @@ const HomeRecreate = () => {
               </div>
             </div>
 
-            <div className="rounded-full ">
+            <div className="rounded-full static ">
               <img
                 src={punampic}
                 alt="punam's profile picture"
                 className="rounded-full h-48 w-40 p-2 border-2 border-blue-900"
               />
             </div>
+          </div>
+          <div className="w-full flex-wrap my-4">
+            <DisplaySkills />
           </div>
         </div>
 

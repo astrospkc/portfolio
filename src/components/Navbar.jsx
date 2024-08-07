@@ -73,7 +73,7 @@ const Navbar = () => {
   return (
     <>
       <div
-        className="md:hidden justify-self-start m-4  w-fit"
+        className="md:hidden justify-self-start m-4  w-fit  "
         onClick={handleToggle}
       >
         {!toggleMenu && (
@@ -91,7 +91,7 @@ const Navbar = () => {
       <div
         className={
           toggleMenu
-            ? " md:min-h-screen  text-white  md:flex justify-evenly items-center md:shadow-lg md:shadow-black backdrop-blur-lg  "
+            ? " md:min-h-screen  text-white  md:flex justify-evenly items-center md:shadow-lg md:shadow-black backdrop-blur-3xl w-fit  "
             : "hidden md:flex   text-white  justify-evenly items-center md:shadow-lg md:shadow-black  backdrop-blur-lg"
           // "w-2/3 md:min-h-screen md:border-r-2 p-3 text-white border-gray-600  md:flex justify-evenly items-center bg-red-300 "
         }
@@ -100,7 +100,8 @@ const Navbar = () => {
           className={
             toggleMenu
               ? " hover:text-yellow-500 flex flex-col mr-3 px-3 justify-center "
-              : "hidden " + "  md:flex flex-row mr-3 justify-center items-start"
+              : "hidden " +
+                "  md:flex flex-row mr-3 justify-center items-start "
           }
 
           // className=" hover:text-yellow-500 flex flex-col m-3 "
@@ -109,7 +110,7 @@ const Navbar = () => {
             return toggleMenu ? (
               <li
                 key={i.id}
-                className="flex flex-row m-4 text-black md:text-white font-bold px-3 border-b-2 md:border-b-0 border-gray-800 hover:text-yellow-500"
+                className="flex flex-row m-4 text-white font-bold px-3 border-b-2 md:border-b-0 border-gray-800 hover:text-yellow-500"
                 onClick={handleToggle}
               >
                 {/* {i.icon} */}
@@ -118,7 +119,7 @@ const Navbar = () => {
             ) : (
               <li
                 key={i.id}
-                className="flex flex-row m-4 text-black md:text-white font-bold px-3 border-b-2 md:border-b-0 border-gray-800 hover:text-yellow-500"
+                className="flex flex-row m-4 text-white font-bold px-3 border-b-2 md:border-b-0 border-gray-800 hover:text-yellow-500"
               >
                 {/* {i.icon} */}
                 <Link to={i.link}>{i.name}</Link>

@@ -27,8 +27,8 @@ const DisplaySkills = () => {
   };
 
   return (
-    <div className="flex flex-col items-center mx-6">
-      <h1 className="text-lg md:text-2xl font-bold text-white overflow-hidden whitespace-nowrap">
+    <div className="flex flex-col items-center mx-6 ">
+      <h1 className="text-sm md:text-2xl font-bold text-white overflow-hidden whitespace-nowrap text-wrap">
         <span className={`inline-block animate-slide`}>{currentSkill}</span>
       </h1>
       {/* {!showAll && (
